@@ -1,0 +1,1162 @@
+2024-04-15 22:04:36,416 - INFO - Started
+2024-04-15 22:04:38,114 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:04:38,114 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:04:39,148 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:04:39,148 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:04:39,148 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:04:44,481 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:04:44,558 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:04:44,601 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:04:44,871 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:04:44,872 - INFO - Releasing special key ENTER.
+2024-04-15 22:04:48,102 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:04:51,212 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:05:01,962 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027266BF6400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7de166ac5f5f62b6ae0812bdefcfc142
+2024-04-15 22:05:06,058 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027266BFB0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7de166ac5f5f62b6ae0812bdefcfc142
+2024-04-15 22:05:10,153 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027266BFB220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7de166ac5f5f62b6ae0812bdefcfc142
+2024-04-15 22:23:43,053 - INFO - Started
+2024-04-15 22:23:44,750 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:23:44,750 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:23:45,724 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:23:45,724 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:23:45,724 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:23:52,296 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:23:52,311 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:23:52,374 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:23:52,408 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:23:52,701 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:23:52,701 - INFO - Releasing special key ENTER.
+2024-04-15 22:23:57,787 - INFO - Sorting by most recent
+2024-04-15 22:23:57,787 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:24:01,039 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:24:07,685 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:24:14,712 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:24:21,368 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:24:28,690 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:24:35,904 - INFO - Done finding aritcles
+2024-04-15 22:24:40,061 - INFO - Done finding aritcles
+2024-04-15 22:24:44,265 - INFO - Done finding aritcles
+2024-04-15 22:24:48,423 - INFO - Done finding aritcles
+2024-04-15 22:24:52,580 - INFO - Done finding aritcles
+2024-04-15 22:24:56,754 - INFO - Done finding aritcles
+2024-04-15 22:25:00,927 - INFO - Done finding aritcles
+2024-04-15 22:25:05,100 - INFO - Done finding aritcles
+2024-04-15 22:25:05,866 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/2a6e507a44ad7a82bb91d2b825aa212f
+2024-04-15 22:25:24,914 - INFO - Started
+2024-04-15 22:25:26,568 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:25:26,568 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:25:27,600 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:25:27,600 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:25:27,600 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:25:31,876 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:25:31,891 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:25:31,970 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:25:32,004 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:25:32,283 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:25:32,283 - INFO - Releasing special key ENTER.
+2024-04-15 22:25:34,622 - INFO - Sorting by most recent
+2024-04-15 22:25:34,622 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:25:37,852 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:25:43,449 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:25:49,142 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:25:54,851 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:26:00,513 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 22:26:06,905 - INFO - Done finding aritcles
+2024-04-15 22:26:15,127 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E76A16400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3ed7bade9218be17447a3117e964f961
+2024-04-15 22:26:19,223 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E76A1B0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3ed7bade9218be17447a3117e964f961
+2024-04-15 22:26:23,318 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E76A1B220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3ed7bade9218be17447a3117e964f961
+2024-04-15 22:32:19,718 - INFO - Started
+2024-04-15 22:32:21,604 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:32:21,604 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:32:22,629 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:32:22,629 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:32:22,629 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:32:26,811 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:32:26,826 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:32:26,909 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:32:26,943 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:32:27,218 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:32:27,218 - INFO - Releasing special key ENTER.
+2024-04-15 22:32:30,379 - INFO - Sorting by most recent
+2024-04-15 22:32:30,379 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:32:52,890 - INFO - Started
+2024-04-15 22:32:54,612 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:32:54,612 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:32:55,579 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:32:55,579 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:32:55,579 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:32:59,653 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:32:59,669 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:32:59,749 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:32:59,784 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:33:00,060 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:33:00,060 - INFO - Releasing special key ENTER.
+2024-04-15 22:33:02,538 - INFO - Sorting by most recent
+2024-04-15 22:33:02,538 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:48:14,562 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/a8446883c65ccea9c0fdab395b69946e
+2024-04-15 22:48:17,280 - INFO - Started
+2024-04-15 22:48:19,221 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:48:19,222 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:48:20,252 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:48:20,252 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:48:20,252 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:48:24,946 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:48:24,962 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:48:25,034 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:48:25,071 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:48:25,373 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:48:25,374 - INFO - Releasing special key ENTER.
+2024-04-15 22:48:28,778 - INFO - Sorting by most recent
+2024-04-15 22:48:28,778 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:48:40,486 - INFO - Started
+2024-04-15 22:48:42,195 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:48:42,195 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:48:43,165 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:48:43,165 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:48:43,165 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:48:47,456 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:48:47,473 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:48:47,558 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:48:47,594 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:48:47,863 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:48:47,863 - INFO - Releasing special key ENTER.
+2024-04-15 22:48:50,140 - INFO - Sorting by most recent
+2024-04-15 22:48:50,140 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:49:41,546 - INFO - Started
+2024-04-15 22:49:43,283 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:49:43,284 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:49:44,257 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:49:44,257 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:49:44,257 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:49:51,495 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-15 22:49:51,511 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:49:51,576 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:49:51,614 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:49:51,886 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:49:51,886 - INFO - Releasing special key ENTER.
+2024-04-15 22:49:54,241 - INFO - Sorting by most recent
+2024-04-15 22:49:54,241 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:50:08,500 - INFO - Started
+2024-04-15 22:50:10,366 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:50:10,366 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:50:11,405 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:50:11,405 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:50:11,405 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:50:16,224 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 22:50:16,240 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:50:16,318 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:50:16,360 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:50:16,633 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:50:16,633 - INFO - Releasing special key ENTER.
+2024-04-15 22:50:21,002 - INFO - Sorting by most recent
+2024-04-15 22:50:21,002 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:50:50,304 - INFO - Started
+2024-04-15 22:50:52,107 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 22:50:52,107 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 22:50:53,075 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 22:50:53,075 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 22:50:53,075 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 22:50:58,141 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 22:50:58,156 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 22:50:58,229 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 22:50:58,264 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 22:50:58,532 - INFO - Pressing special key ENTER to element.
+2024-04-15 22:50:58,533 - INFO - Releasing special key ENTER.
+2024-04-15 22:51:02,314 - INFO - Sorting by most recent
+2024-04-15 22:51:02,314 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 22:52:27,374 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/01b59d3986c9a87dfac3e080c12806a7
+2024-04-15 23:00:16,744 - INFO - Started
+2024-04-15 23:00:18,484 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:00:18,484 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:00:19,512 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:00:19,512 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 23:00:19,513 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:00:24,921 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:00:24,936 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:00:25,007 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:00:25,045 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:00:25,328 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:00:25,328 - INFO - Releasing special key ENTER.
+2024-04-15 23:00:32,538 - INFO - Sorting by most recent
+2024-04-15 23:00:32,538 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:00:42,955 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/bc38ef9f01c0525d9586bc979fd71f29
+2024-04-15 23:11:05,509 - INFO - Started
+2024-04-15 23:11:07,404 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:11:07,404 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:11:08,436 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:11:08,436 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 23:11:08,436 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:11:14,821 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:11:14,836 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:11:14,906 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:11:14,939 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:11:15,213 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:11:15,213 - INFO - Releasing special key ENTER.
+2024-04-15 23:11:20,980 - INFO - Sorting by most recent
+2024-04-15 23:11:20,980 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:11:23,137 - INFO - </td></tr><tr><td colspan="3"><a href="img.jpg"><img src="img.jpg" width="400px"></a>
+2024-04-15 23:24:50,994 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/bf8a6a303a18f207c2fc9bd46b843086
+2024-04-15 23:24:54,043 - INFO - Started
+2024-04-15 23:24:55,953 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:24:55,953 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:24:56,988 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:24:56,988 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 23:24:56,988 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:25:02,892 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:25:02,908 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:25:02,981 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:25:03,015 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:25:03,300 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:25:03,300 - INFO - Releasing special key ENTER.
+2024-04-15 23:25:09,129 - INFO - Sorting by most recent
+2024-04-15 23:25:09,129 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:25:12,303 - INFO - </td></tr><tr><td colspan="3"><a href="img.jpg"><img src="img.jpg" width="400px"></a>
+2024-04-15 23:25:26,797 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/b12ab40bf37ab4cff94d2a424641de6f
+2024-04-15 23:25:41,472 - INFO - Started
+2024-04-15 23:25:43,528 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:25:43,528 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:25:44,569 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:25:44,569 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 23:25:44,569 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:25:49,339 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:25:49,429 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:25:49,509 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:25:49,545 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:25:49,825 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:25:49,825 - INFO - Releasing special key ENTER.
+2024-04-15 23:25:53,280 - INFO - Sorting by most recent
+2024-04-15 23:25:53,280 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:25:55,416 - INFO - </td></tr><tr><td colspan="3"><a href="img.jpg"><img src="img.jpg" width="400px"></a>
+2024-04-15 23:26:14,080 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/f43be3ae17e64b6743fa2a7451f124f2
+2024-04-15 23:31:14,526 - INFO - Started
+2024-04-15 23:31:16,421 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:31:16,422 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:31:17,392 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:31:17,392 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 23:31:17,392 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:31:23,528 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:31:23,543 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:31:23,608 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:31:23,642 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:31:23,920 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:31:23,920 - INFO - Releasing special key ENTER.
+2024-04-15 23:31:29,687 - INFO - Sorting by most recent
+2024-04-15 23:31:29,687 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:31:31,914 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:31:31,989 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,049 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,108 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,177 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,240 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:31:32,296 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,354 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,424 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:31:32,483 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:31:34,499 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:32:00,089 - INFO - Started
+2024-04-15 23:32:01,889 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:32:01,890 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:32:02,923 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:32:02,923 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+2024-04-15 23:32:02,923 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:32:07,679 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:32:07,715 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:32:07,787 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:32:07,824 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:32:08,102 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:32:08,102 - INFO - Releasing special key ENTER.
+2024-04-15 23:32:12,069 - INFO - Sorting by most recent
+2024-04-15 23:32:12,069 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:32:14,205 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:32:14,267 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,326 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,381 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,455 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,510 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:32:14,569 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,640 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,696 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:32:14,749 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:32:16,758 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:33:59,102 - INFO - Started
+2024-04-15 23:34:05,072 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:34:05,141 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:34:05,141 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:34:06,115 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:34:06,115 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:34:06,115 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:34:11,243 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:34:11,258 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:34:11,327 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:34:11,361 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:34:11,634 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:34:11,634 - INFO - Releasing special key ENTER.
+2024-04-15 23:34:14,919 - INFO - Sorting by most recent
+2024-04-15 23:34:14,919 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:34:17,052 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:34:17,120 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,180 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,240 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,319 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,385 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:34:17,446 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,517 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,586 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:34:17,653 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:34:19,666 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:34:41,986 - INFO - Started
+2024-04-15 23:34:46,473 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:34:46,487 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:34:46,487 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:34:47,519 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:34:47,519 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:34:47,519 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:34:53,516 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:34:53,531 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:34:53,603 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:34:53,645 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:34:53,924 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:34:53,924 - INFO - Releasing special key ENTER.
+2024-04-15 23:34:58,605 - INFO - Sorting by most recent
+2024-04-15 23:34:58,605 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:35:21,227 - INFO - Started
+2024-04-15 23:35:25,834 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:35:25,849 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:35:25,850 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:35:26,879 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:35:26,879 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:35:26,879 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:35:31,927 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:35:31,943 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:35:32,015 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:35:32,052 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:35:32,320 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:35:32,320 - INFO - Releasing special key ENTER.
+2024-04-15 23:35:35,759 - INFO - Sorting by most recent
+2024-04-15 23:35:35,759 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:35:37,897 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:35:37,960 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,018 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,077 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,140 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,202 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:35:38,261 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,326 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,395 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:35:38,453 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:38:08,621 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1f768ea931874d11532e5f27c6226850
+2024-04-15 23:38:16,203 - INFO - Started
+2024-04-15 23:38:20,691 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:38:20,705 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:38:20,705 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:38:21,743 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:38:21,743 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:38:21,743 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:38:28,454 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:38:28,470 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:38:28,539 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:38:28,575 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:38:28,861 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:38:28,861 - INFO - Releasing special key ENTER.
+2024-04-15 23:38:34,054 - INFO - Sorting by most recent
+2024-04-15 23:38:34,054 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:38:36,185 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:38:36,253 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,314 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,373 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,448 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,509 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:38:36,574 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,641 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,705 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:38:36,763 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:38:39,786 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@class='met-flyout-close']' not found.</i>
+2024-04-15 23:38:42,789 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:38:58,437 - INFO - Started
+2024-04-15 23:39:03,198 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:39:03,213 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:39:03,213 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:39:04,250 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:39:04,250 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:39:04,251 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:39:09,580 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:39:09,598 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:39:09,676 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:39:09,717 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:39:09,988 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:39:09,988 - INFO - Releasing special key ENTER.
+2024-04-15 23:39:13,582 - INFO - Sorting by most recent
+2024-04-15 23:39:13,582 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:39:15,727 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:39:15,793 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:15,862 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:15,929 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:15,993 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:16,062 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:39:16,131 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:16,194 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:16,259 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:39:16,327 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:39:19,346 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://*[@class='met-flyout-close']' not found.</i>
+2024-04-15 23:39:22,348 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:43:54,656 - INFO - Started
+2024-04-15 23:43:59,406 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:43:59,422 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:43:59,422 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:44:00,462 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:44:00,462 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:44:00,462 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:44:07,498 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:44:07,518 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:44:07,608 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:44:07,653 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:44:07,922 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:44:07,922 - INFO - Releasing special key ENTER.
+2024-04-15 23:44:12,866 - INFO - Sorting by most recent
+2024-04-15 23:44:12,866 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:44:16,070 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:44:16,136 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,200 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,261 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,331 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,396 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:44:16,470 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,642 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,712 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:44:16,771 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:44:52,579 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/082ed7890647b30b2d2ef0f5257f7087
+2024-04-15 23:45:00,395 - INFO - Started
+2024-04-15 23:45:05,308 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:45:05,323 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:45:05,323 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:45:06,363 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:45:06,363 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:45:06,363 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:45:11,646 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:45:11,665 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:45:11,752 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:45:11,796 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:45:12,071 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:45:12,071 - INFO - Releasing special key ENTER.
+2024-04-15 23:45:15,726 - INFO - Sorting by most recent
+2024-04-15 23:45:15,726 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:45:22,844 - INFO - Started
+2024-04-15 23:45:27,630 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:45:27,646 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:45:27,646 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:45:28,687 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:45:28,688 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:45:28,688 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:45:33,892 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:45:33,914 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:45:33,985 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:45:34,023 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:45:34,303 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:45:34,303 - INFO - Releasing special key ENTER.
+2024-04-15 23:45:37,910 - INFO - Sorting by most recent
+2024-04-15 23:45:37,910 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:45:40,045 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:45:40,121 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,185 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,245 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,325 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,383 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:45:40,447 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,529 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,598 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:45:40,670 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:46:28,953 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/76b31d20b6556180924c114132f8e72e
+2024-04-15 23:46:33,957 - INFO - Started
+2024-04-15 23:46:39,012 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:46:39,027 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:46:39,028 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:46:40,063 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:46:40,064 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:46:40,064 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:46:44,989 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:46:45,007 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:46:45,085 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:46:45,124 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:46:45,398 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:46:45,398 - INFO - Releasing special key ENTER.
+2024-04-15 23:46:49,100 - INFO - Sorting by most recent
+2024-04-15 23:46:49,100 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:46:51,348 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:46:51,418 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,485 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,543 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,631 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,705 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:46:51,769 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,858 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,928 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:46:51,992 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:46:54,003 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:46:55,090 - INFO - Clicking link 'xpath://*[@class='met-flyout-close']'.
+2024-04-15 23:47:26,502 - INFO - Started
+2024-04-15 23:47:31,847 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:47:31,863 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:47:31,863 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:47:32,903 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:47:32,903 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:47:32,903 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:47:39,984 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:47:40,011 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:47:40,108 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:47:40,153 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:47:40,439 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:47:40,439 - INFO - Releasing special key ENTER.
+2024-04-15 23:47:45,088 - INFO - Sorting by most recent
+2024-04-15 23:47:45,088 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:47:47,368 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:47:47,445 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:48,692 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:48,780 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:48,841 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:48,917 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:47:49,001 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:49,056 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:49,122 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:47:49,241 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:49:07,336 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/4ebcaf251e1ee87eeccfd52f3ee8b1f5
+2024-04-15 23:49:13,571 - INFO - Started
+2024-04-15 23:49:18,737 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:49:18,753 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:49:18,753 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:49:19,788 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:49:19,788 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:49:19,788 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:49:25,009 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:49:25,027 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:49:25,117 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:49:25,159 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:49:25,440 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:49:25,440 - INFO - Releasing special key ENTER.
+2024-04-15 23:49:29,167 - INFO - Sorting by most recent
+2024-04-15 23:49:29,167 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:49:31,424 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:49:31,515 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:31,581 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:31,645 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:31,726 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:31,800 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:49:31,865 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:31,942 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:32,010 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:49:32,079 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:49:34,085 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:49:35,172 - INFO - Clicking link 'xpath://a[@class='met-flyout-close' and @aria-label='Close']'.
+2024-04-15 23:57:46,926 - INFO - Started
+2024-04-15 23:57:52,358 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-15 23:57:52,374 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-15 23:57:52,375 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-15 23:57:53,405 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-15 23:57:53,405 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-15 23:57:53,406 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-15 23:58:00,316 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-15 23:58:00,335 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-15 23:58:00,418 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-15 23:58:00,460 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-15 23:58:00,741 - INFO - Pressing special key ENTER to element.
+2024-04-15 23:58:00,741 - INFO - Releasing special key ENTER.
+2024-04-15 23:58:06,506 - INFO - Sorting by most recent
+2024-04-15 23:58:06,506 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-15 23:58:08,776 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-15 23:58:08,866 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:08,934 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:08,998 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:09,074 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:09,146 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-15 23:58:09,211 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:09,301 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:09,363 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-15 23:58:09,435 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-15 23:58:11,440 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-15 23:58:12,526 - INFO - Clicking link 'xpath://a[@href='#']'.
+2024-04-16 00:01:49,242 - INFO - Started
+2024-04-16 00:01:56,129 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:01:56,208 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:01:56,208 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:01:57,245 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:01:57,245 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:01:57,245 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:02:07,087 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:02:07,109 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:02:07,202 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:02:07,248 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:02:07,526 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:02:07,526 - INFO - Releasing special key ENTER.
+2024-04-16 00:02:14,502 - INFO - Sorting by most recent
+2024-04-16 00:02:14,502 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:02:28,219 - INFO - Started
+2024-04-16 00:02:33,857 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:02:33,874 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:02:33,874 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:02:34,911 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:02:34,911 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:02:34,911 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:02:43,171 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:02:43,193 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:02:43,289 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:02:43,338 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:02:43,642 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:02:43,642 - INFO - Releasing special key ENTER.
+2024-04-16 00:02:47,577 - INFO - Sorting by most recent
+2024-04-16 00:02:47,577 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:02:49,747 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:02:49,827 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:49,907 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:49,981 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:50,088 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:50,156 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:02:50,226 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:50,296 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:50,371 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:02:50,443 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:02:52,449 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:02:53,582 - INFO - Clicking link 'xpath://a[@class='met-flyout-close']'.
+2024-04-16 00:06:20,547 - INFO - Started
+2024-04-16 00:06:26,196 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:06:26,214 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:06:26,214 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:06:27,271 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:06:27,271 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:06:27,272 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:06:33,870 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:06:33,895 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:06:33,992 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:06:34,039 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:06:34,310 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:06:34,310 - INFO - Releasing special key ENTER.
+2024-04-16 00:06:39,005 - INFO - Sorting by most recent
+2024-04-16 00:06:39,005 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:06:42,422 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:06:42,505 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:42,576 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:42,648 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:42,715 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:42,792 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:06:42,893 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:43,033 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:43,123 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:06:43,195 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:06:45,214 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:10:29,773 - INFO - Started
+2024-04-16 00:10:35,584 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:10:35,602 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:10:35,602 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:10:36,802 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:10:36,803 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:10:36,803 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:10:43,992 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:10:44,013 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:10:44,107 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:10:44,153 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:10:44,433 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:10:44,434 - INFO - Releasing special key ENTER.
+2024-04-16 00:10:49,995 - INFO - Sorting by most recent
+2024-04-16 00:10:49,996 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:10:53,311 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:10:53,395 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,464 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,527 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,603 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,676 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:10:53,740 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,836 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,906 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:10:53,971 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:10:55,984 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:10:57,086 - INFO - Altogether 1 item.
+1: Los Angeles Times Site Search - Los Angeles Times
+2024-04-16 00:10:57,100 - INFO - Altogether 1 item.
+1: undefined
+2024-04-16 00:10:57,113 - INFO - Altogether 1 item.
+1: undefined
+2024-04-16 00:10:57,127 - INFO - Altogether 1 item.
+1: undefined
+2024-04-16 00:12:45,516 - INFO - Started
+2024-04-16 00:12:51,426 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:12:51,445 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:12:51,445 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:12:52,504 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:12:52,504 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:12:52,504 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:12:54,629 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:12:56,620 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:12:56,739 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:12:56,787 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:12:57,086 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:12:57,086 - INFO - Releasing special key ENTER.
+2024-04-16 00:13:00,882 - INFO - Sorting by most recent
+2024-04-16 00:13:00,882 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:13:03,114 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:13:03,242 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,310 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,378 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,479 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,546 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:13:03,617 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,709 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,775 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:03,842 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:13:05,846 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:13:06,941 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://a[@class='met-flyout-close']' not found.</i>
+2024-04-16 00:13:10,038 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:13:10,115 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,188 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,253 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,319 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,384 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:13:10,443 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,503 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,570 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:10,625 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:13:12,625 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:13:13,717 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://a[@class='met-flyout-close']' not found.</i>
+2024-04-16 00:13:16,791 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:13:16,862 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:16,921 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:16,975 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:17,029 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:17,091 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:13:17,152 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:17,212 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:17,273 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:17,332 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:13:19,342 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:13:20,436 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://a[@class='met-flyout-close']' not found.</i>
+2024-04-16 00:13:23,511 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:13:23,585 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:23,650 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:23,708 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:23,762 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:23,825 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:13:23,886 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:23,946 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:24,007 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:13:24,065 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:13:26,075 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:13:27,169 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://a[@class='met-flyout-close']' not found.</i>
+2024-04-16 00:13:30,042 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/dc5a0217e2472aafc9dc152e66f22a22
+2024-04-16 00:14:15,821 - INFO - Started
+2024-04-16 00:14:21,737 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:14:21,755 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:14:21,755 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:14:22,831 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:14:22,831 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:14:22,832 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:14:28,609 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:14:28,636 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:14:28,733 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:14:28,782 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:14:29,064 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:14:29,065 - INFO - Releasing special key ENTER.
+2024-04-16 00:14:34,644 - INFO - Sorting by most recent
+2024-04-16 00:14:34,644 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:14:36,807 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:14:36,978 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,064 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,133 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,203 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,277 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:14:37,347 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,411 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,481 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:37,545 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:14:39,547 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:14:40,657 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://a[@class='met-flyout-close']' not found.</i>
+2024-04-16 00:14:43,743 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:14:43,816 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:43,883 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:43,942 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:44,007 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:44,067 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:14:44,118 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:44,177 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:44,257 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:44,316 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:14:46,326 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:14:47,371 - INFO - Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'xpath://a[@class='met-flyout-close']' not found.</i>
+2024-04-16 00:14:50,446 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:14:50,519 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:50,587 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:50,645 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:50,704 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:50,766 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:14:50,827 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:50,887 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:50,948 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:14:51,009 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:14:52,895 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/e8fb107dd806b8dfc372cbf80398ef76
+2024-04-16 00:15:51,715 - INFO - Started
+2024-04-16 00:15:57,533 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:15:57,550 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:15:57,551 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:15:58,580 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:15:58,580 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:15:58,580 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:16:04,699 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:16:04,721 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:16:04,827 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:16:04,874 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:16:05,154 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:16:05,154 - INFO - Releasing special key ENTER.
+2024-04-16 00:16:08,841 - INFO - Sorting by most recent
+2024-04-16 00:16:08,841 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:16:11,131 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:16:11,211 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,284 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,347 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,448 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,521 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:16:11,588 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,661 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,738 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:16:11,816 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:16:13,821 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:16:14,924 - INFO - Clicking element 'xpath://a[@class='met-flyout-close']'.
+2024-04-16 00:20:50,325 - INFO - Started
+2024-04-16 00:20:56,163 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:20:56,182 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:20:56,182 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:20:57,289 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:20:57,289 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:20:57,289 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:21:05,301 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:21:05,329 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:21:05,425 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:21:05,472 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:21:05,755 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:21:05,756 - INFO - Releasing special key ENTER.
+2024-04-16 00:21:11,444 - INFO - Sorting by most recent
+2024-04-16 00:21:11,444 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:21:13,624 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:21:13,800 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:13,879 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:13,955 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:14,031 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:14,097 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:21:14,161 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:14,234 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:14,309 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:21:14,374 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:21:16,378 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:21:17,464 - INFO - HANDLE::<class 'NoneType'>::None
+2024-04-16 00:21:22,583 - INFO - Ran with keyword <b>Alert Should Be Present</b> which returned error: <i>Alert not found in 5 seconds.</i>
+2024-04-16 00:21:22,583 - INFO - Clicking element 'xpath://a[@class='met-flyout-close']'.
+2024-04-16 00:28:38,397 - INFO - Started
+2024-04-16 00:28:44,223 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:28:44,241 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:28:44,241 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:28:45,343 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:28:45,343 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:28:45,344 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:28:52,796 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:28:52,820 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:28:52,919 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:28:52,965 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:28:53,251 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:28:53,251 - INFO - Releasing special key ENTER.
+2024-04-16 00:28:58,287 - INFO - Sorting by most recent
+2024-04-16 00:28:58,287 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:29:00,477 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:29:00,552 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:00,642 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:00,776 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:00,873 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:00,989 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:29:01,059 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:01,123 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:01,190 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:01,259 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:29:03,268 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:29:07,797 - INFO - Clicking element 'xpath://a[@class='met-flyout-close']'.
+2024-04-16 00:29:39,414 - INFO - Started
+2024-04-16 00:29:45,254 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:29:45,273 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:29:45,273 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:29:46,434 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:29:46,434 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:29:46,434 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:29:51,607 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:29:51,631 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:29:51,748 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:29:51,795 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:29:52,078 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:29:52,079 - INFO - Releasing special key ENTER.
+2024-04-16 00:29:55,454 - INFO - Sorting by most recent
+2024-04-16 00:29:55,454 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:29:57,618 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:29:57,699 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:57,770 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:57,871 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:57,971 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:58,049 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:29:58,116 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:58,211 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:58,286 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:29:58,364 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:30:00,372 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:30:04,886 - INFO - Clicking element 'xpath://a[@class='met-flyout-close']'.
+2024-04-16 00:31:43,850 - INFO - Started
+2024-04-16 00:31:49,789 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:31:49,807 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:31:49,807 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:31:51,052 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:31:51,053 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:31:51,053 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:31:57,978 - INFO - Searching for news articles with the phrase 'trump' from the last month(s)
+2024-04-16 00:31:58,000 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:31:58,102 - INFO - Typing text 'trump' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:31:58,149 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:31:58,434 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:31:58,435 - INFO - Releasing special key ENTER.
+2024-04-16 00:32:02,943 - INFO - Sorting by most recent
+2024-04-16 00:32:02,943 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:32:05,116 - INFO - </td></tr><tr><td colspan="3"><a href="1250770779.jpg"><img src="1250770779.jpg" width="400px"></a>
+2024-04-16 00:32:05,192 - INFO - </td></tr><tr><td colspan="3"><a href="trump-fraud-lawsuit-66687.jpg.jpg"><img src="trump-fraud-lawsuit-66687.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,267 - INFO - </td></tr><tr><td colspan="3"><a href="nyjj115-89102.jpg.jpg"><img src="nyjj115-89102.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,335 - INFO - </td></tr><tr><td colspan="3"><a href="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg"><img src="1435452-et-0412-coachella-scene-cmh-24.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,418 - INFO - </td></tr><tr><td colspan="3"><a href="election-2020-joe-biden-84882.jpg.jpg"><img src="election-2020-joe-biden-84882.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,497 - INFO - </td></tr><tr><td colspan="3"><a href="337d2cb3e83e405dbe9cd3d123dd9e96.jpg"><img src="337d2cb3e83e405dbe9cd3d123dd9e96.jpg" width="400px"></a>
+2024-04-16 00:32:05,567 - INFO - </td></tr><tr><td colspan="3"><a href="cw-39555-rc2.jpg.jpg"><img src="cw-39555-rc2.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,661 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-rnc-fundraising-74602.jpg.jpg"><img src="election-2024-trump-rnc-fundraising-74602.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,737 - INFO - </td></tr><tr><td colspan="3"><a href="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg"><img src="1419983-wk-dodgers-hiking-crew-11-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:05,804 - INFO - </td></tr><tr><td colspan="3"><a href="2005530398.jpg"><img src="2005530398.jpg" width="400px"></a>
+2024-04-16 00:32:07,814 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:11,444 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:16,348 - INFO - </td></tr><tr><td colspan="3"><a href="me-man-swims-to-shore-with-dog-after-crashing-in-ocean-003.jpeg.jpg"><img src="me-man-swims-to-shore-with-dog-after-crashing-in-ocean-003.jpeg.jpg" width="400px"></a>
+2024-04-16 00:32:16,424 - INFO - </td></tr><tr><td colspan="3"><a href="b3ab269c7d924e5e9b706548733e2846.jpg"><img src="b3ab269c7d924e5e9b706548733e2846.jpg" width="400px"></a>
+2024-04-16 00:32:16,600 - INFO - </td></tr><tr><td colspan="3"><a href="23177545bd384bb1ae2afa65912dd168.jpg"><img src="23177545bd384bb1ae2afa65912dd168.jpg" width="400px"></a>
+2024-04-16 00:32:16,676 - INFO - </td></tr><tr><td colspan="3"><a href="1334b1459e6141deaca3e127cacc5190.jpg"><img src="1334b1459e6141deaca3e127cacc5190.jpg" width="400px"></a>
+2024-04-16 00:32:16,788 - INFO - </td></tr><tr><td colspan="3"><a href="trump-hush-money-jury-selection-32004.jpg.jpg"><img src="trump-hush-money-jury-selection-32004.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:16,871 - INFO - </td></tr><tr><td colspan="3"><a href="nixon-farewell-aphs474839.jpg.jpg"><img src="nixon-farewell-aphs474839.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:16,943 - INFO - </td></tr><tr><td colspan="3"><a href="la-le-right-left-homelessness-tent.jpg.jpg"><img src="la-le-right-left-homelessness-tent.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:17,008 - INFO - </td></tr><tr><td colspan="3"><a href="fdd6ab5efeb1458eb2022c1635e75afa.jpg"><img src="fdd6ab5efeb1458eb2022c1635e75afa.jpg" width="400px"></a>
+2024-04-16 00:32:17,084 - INFO - </td></tr><tr><td colspan="3"><a href="arizona-abortion-law-latt.png.jpg"><img src="arizona-abortion-law-latt.png.jpg" width="400px"></a>
+2024-04-16 00:32:17,163 - INFO - </td></tr><tr><td colspan="3"><a href="2147754829.jpg"><img src="2147754829.jpg" width="400px"></a>
+2024-04-16 00:32:19,170 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:22,924 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:27,330 - INFO - </td></tr><tr><td colspan="3"><a href="iran-mideast-tensions-88749.jpg.jpg"><img src="iran-mideast-tensions-88749.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:27,403 - INFO - </td></tr><tr><td colspan="3"><a href="508644196.jpg"><img src="508644196.jpg" width="400px"></a>
+2024-04-16 00:32:27,575 - INFO - </td></tr><tr><td colspan="3"><a href="ap19294861383643.jpg.jpg"><img src="ap19294861383643.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:27,648 - INFO - </td></tr><tr><td colspan="3"><a href="b5745a1391884f2cbdf5d37f80dbcebf.jpg"><img src="b5745a1391884f2cbdf5d37f80dbcebf.jpg" width="400px"></a>
+2024-04-16 00:32:27,754 - INFO - </td></tr><tr><td colspan="3"><a href="2136579672.jpg"><img src="2136579672.jpg" width="400px"></a>
+2024-04-16 00:32:27,827 - INFO - </td></tr><tr><td colspan="3"><a href="max-ludington-credit-jennifer-silverman.jpg.jpg"><img src="max-ludington-credit-jennifer-silverman.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:27,913 - INFO - </td></tr><tr><td colspan="3"><a href="acbff92bdd4c43c6b363c942ee38d0a0.jpg"><img src="acbff92bdd4c43c6b363c942ee38d0a0.jpg" width="400px"></a>
+2024-04-16 00:32:28,000 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-40389.jpg.jpg"><img src="election-2024-trump-40389.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:28,078 - INFO - </td></tr><tr><td colspan="3"><a href="89d172128c3f44148761f9f133c22e74.jpg"><img src="89d172128c3f44148761f9f133c22e74.jpg" width="400px"></a>
+2024-04-16 00:32:28,158 - INFO - </td></tr><tr><td colspan="3"><a href="ae33874bdd884a53b5cf88c74112faf1.jpg"><img src="ae33874bdd884a53b5cf88c74112faf1.jpg" width="400px"></a>
+2024-04-16 00:32:30,169 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:34,404 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:39,739 - INFO - </td></tr><tr><td colspan="3"><a href="utah-capitol-framed-sunny.jpg.jpg"><img src="utah-capitol-framed-sunny.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:39,811 - INFO - </td></tr><tr><td colspan="3"><a href="abortion-31103.jpg.jpg"><img src="abortion-31103.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:39,990 - INFO - </td></tr><tr><td colspan="3"><a href="2144482742.jpg"><img src="2144482742.jpg" width="400px"></a>
+2024-04-16 00:32:40,064 - INFO - </td></tr><tr><td colspan="3"><a href="2db30807e6504874bcf6dd187772c866.jpg"><img src="2db30807e6504874bcf6dd187772c866.jpg" width="400px"></a>
+2024-04-16 00:32:40,163 - INFO - </td></tr><tr><td colspan="3"><a href="la-david-hume-kennerly-gettyimages-106.jpg.jpg"><img src="la-david-hume-kennerly-gettyimages-106.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:40,250 - INFO - </td></tr><tr><td colspan="3"><a href="ap19142701886386.jpg.jpg"><img src="ap19142701886386.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:40,335 - INFO - </td></tr><tr><td colspan="3"><a href="california-budget-63037.jpg.jpg"><img src="california-budget-63037.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:40,410 - INFO - </td></tr><tr><td colspan="3"><a href="ap24094588987176.jpg.jpg"><img src="ap24094588987176.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:40,479 - INFO - </td></tr><tr><td colspan="3"><a href="1432522-me-0405-99-cent-only-closing-gem-002.jpg.jpg"><img src="1432522-me-0405-99-cent-only-closing-gem-002.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:40,557 - INFO - </td></tr><tr><td colspan="3"><a href="1684104218.jpg"><img src="1684104218.jpg" width="400px"></a>
+2024-04-16 00:32:42,564 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:46,287 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:50,820 - INFO - </td></tr><tr><td colspan="3"><a href="a25fa2fa9fba4992903e4c7834761fb2.jpg"><img src="a25fa2fa9fba4992903e4c7834761fb2.jpg" width="400px"></a>
+2024-04-16 00:32:50,939 - INFO - </td></tr><tr><td colspan="3"><a href="1336421-me-0817-bass-smash-grab-thefts-003-ik.jpg.jpg"><img src="1336421-me-0817-bass-smash-grab-thefts-003-ik.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:51,019 - INFO - </td></tr><tr><td colspan="3"><a href="2004989823.jpg"><img src="2004989823.jpg" width="400px"></a>
+2024-04-16 00:32:51,093 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-82534.jpg.jpg"><img src="election-2024-trump-82534.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:51,194 - INFO - </td></tr><tr><td colspan="3"><a href="1243259-me-0117-lapd-keenan-anderson-takar-deaths-007-ik.jpg.jpg"><img src="1243259-me-0117-lapd-keenan-anderson-takar-deaths-007-ik.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:51,370 - INFO - </td></tr><tr><td colspan="3"><a href="trump-classified-documents-29147.jpg.jpg"><img src="trump-classified-documents-29147.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:51,449 - INFO - </td></tr><tr><td colspan="3"><a href="1625a100e4dc4dd7a33d9056e193c3a3.jpg"><img src="1625a100e4dc4dd7a33d9056e193c3a3.jpg" width="400px"></a>
+2024-04-16 00:32:51,520 - INFO - </td></tr><tr><td colspan="3"><a href="la-me-arizona-colorado-river-segment016-1-lls.jpg.jpg"><img src="la-me-arizona-colorado-river-segment016-1-lls.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:51,599 - INFO - </td></tr><tr><td colspan="3"><a href="germany-politics-heating-law-46256.jpg.jpg"><img src="germany-politics-heating-law-46256.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:51,680 - INFO - </td></tr><tr><td colspan="3"><a href="trump-hush-money-31613.jpg.jpg"><img src="trump-hush-money-31613.jpg.jpg" width="400px"></a>
+2024-04-16 00:32:53,687 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:32:57,689 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:02,613 - INFO - </td></tr><tr><td colspan="3"><a href="a4b94ad225424bb3838ef1fcb57d81de.jpg"><img src="a4b94ad225424bb3838ef1fcb57d81de.jpg" width="400px"></a>
+2024-04-16 00:33:02,684 - INFO - </td></tr><tr><td colspan="3"><a href="1424952-me-calexico-transgender-councilmember-recall-dpm-104.jpg.jpg"><img src="1424952-me-calexico-transgender-councilmember-recall-dpm-104.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:02,750 - INFO - </td></tr><tr><td colspan="3"><a href="california-budget-33463.jpg.jpg"><img src="california-budget-33463.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:02,819 - INFO - </td></tr><tr><td colspan="3"><a href="1168879-me-arizonas-last-abortion-clinic-1-gmf.jpg.jpg"><img src="1168879-me-arizonas-last-abortion-clinic-1-gmf.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:02,915 - INFO - </td></tr><tr><td colspan="3"><a href="ap24094588987176.jpg.jpg"><img src="ap24094588987176.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:02,986 - INFO - </td></tr><tr><td colspan="3"><a href="3327e708069748efb7e8095f2c9bf718.jpg"><img src="3327e708069748efb7e8095f2c9bf718.jpg" width="400px"></a>
+2024-04-16 00:33:03,134 - INFO - </td></tr><tr><td colspan="3"><a href="69ace172d1e647bf8ca577a8672c7044.jpg"><img src="69ace172d1e647bf8ca577a8672c7044.jpg" width="400px"></a>
+2024-04-16 00:33:03,208 - INFO - </td></tr><tr><td colspan="3"><a href="17f983a2bb034438875a7fbcdf642048.jpg"><img src="17f983a2bb034438875a7fbcdf642048.jpg" width="400px"></a>
+2024-04-16 00:33:03,278 - INFO - </td></tr><tr><td colspan="3"><a href="1280307-me-poppy-reserve-011-fo.jpg.jpg"><img src="1280307-me-poppy-reserve-011-fo.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:03,355 - INFO - </td></tr><tr><td colspan="3"><a href="f72b23557210410c8d6e798aca0e1c4d.jpg"><img src="f72b23557210410c8d6e798aca0e1c4d.jpg" width="400px"></a>
+2024-04-16 00:33:05,368 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:09,635 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:16,164 - INFO - </td></tr><tr><td colspan="3"><a href="1414022-me-disney-climate-change-autopia-32-ajs.jpg.jpg"><img src="1414022-me-disney-climate-change-autopia-32-ajs.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,238 - INFO - </td></tr><tr><td colspan="3"><a href="election-2024-trump-republican-rivals-21655.jpg.jpg"><img src="election-2024-trump-republican-rivals-21655.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,307 - INFO - </td></tr><tr><td colspan="3"><a href="1400604-me-network-academy-belmont-high-school-12-ajs.jpg.jpg"><img src="1400604-me-network-academy-belmont-high-school-12-ajs.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,376 - INFO - </td></tr><tr><td colspan="3"><a href="1418327-pol-elex-night-katie-porter02-gem.jpg.jpg"><img src="1418327-pol-elex-night-katie-porter02-gem.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,474 - INFO - </td></tr><tr><td colspan="3"><a href="biden-trump-kennedy.jpg.jpg"><img src="biden-trump-kennedy.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,550 - INFO - </td></tr><tr><td colspan="3"><a href="1411694-me-casino-battle-norcal-12-brv.jpg.jpg"><img src="1411694-me-casino-battle-norcal-12-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,629 - INFO - </td></tr><tr><td colspan="3"><a href="gettyimages-1228637559.jpg.jpg"><img src="gettyimages-1228637559.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,699 - INFO - </td></tr><tr><td colspan="3"><a href="financial-markets-wall-street-89379.jpg.jpg"><img src="financial-markets-wall-street-89379.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,795 - INFO - </td></tr><tr><td colspan="3"><a href="nashville-skyline-90128.jpg.jpg"><img src="nashville-skyline-90128.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:16,879 - INFO - </td></tr><tr><td colspan="3"><a href="8710f238cd5b49a4bf6d305cd7d4f4b6.jpg"><img src="8710f238cd5b49a4bf6d305cd7d4f4b6.jpg" width="400px"></a>
+2024-04-16 00:33:18,880 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:22,526 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:27,027 - INFO - </td></tr><tr><td colspan="3"><a href="7fa58b7ff7bb41b28803edf37c1aa06f.jpg"><img src="7fa58b7ff7bb41b28803edf37c1aa06f.jpg" width="400px"></a>
+2024-04-16 00:33:27,101 - INFO - </td></tr><tr><td colspan="3"><a href="a6e36c7e1d2644e8b494c9388f391265.jpg"><img src="a6e36c7e1d2644e8b494c9388f391265.jpg" width="400px"></a>
+2024-04-16 00:33:27,171 - INFO - </td></tr><tr><td colspan="3"><a href="2971573_NA_0821_eclipse_11_CMC.JPG.jpg"><img src="2971573_NA_0821_eclipse_11_CMC.JPG.jpg" width="400px"></a>
+2024-04-16 00:33:27,242 - INFO - </td></tr><tr><td colspan="3"><a href="6cfcf92aafcb4775b29a3ca4005bd471.jpg"><img src="6cfcf92aafcb4775b29a3ca4005bd471.jpg" width="400px"></a>
+2024-04-16 00:33:27,337 - INFO - </td></tr><tr><td colspan="3"><a href="613456430.jpg"><img src="613456430.jpg" width="400px"></a>
+2024-04-16 00:33:27,405 - INFO - </td></tr><tr><td colspan="3"><a href="lionel-shriver-author-photo-credit-rii-schroer2.jpg.jpg"><img src="lionel-shriver-author-photo-credit-rii-schroer2.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:27,479 - INFO - </td></tr><tr><td colspan="3"><a href="1409671-la-me-sunset-1-rcg.jpg.jpg"><img src="1409671-la-me-sunset-1-rcg.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:27,634 - INFO - </td></tr><tr><td colspan="3"><a href="1426446-me-0330-rfk-cesar-chavez-gem-001.jpg.jpg"><img src="1426446-me-0330-rfk-cesar-chavez-gem-001.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:27,713 - INFO - </td></tr><tr><td colspan="3"><a href="1405450-me-0201-black-history-month-kennedy-023.jpg.jpg"><img src="1405450-me-0201-black-history-month-kennedy-023.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:27,794 - INFO - </td></tr><tr><td colspan="3"><a href="1423024-me-increasing-ski-injuries-12-brv.jpg.jpg"><img src="1423024-me-increasing-ski-injuries-12-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:29,802 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:33,448 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:37,808 - INFO - </td></tr><tr><td colspan="3"><a href="7f44eff7ee6c452ebe0adeff503bdbb4.jpg"><img src="7f44eff7ee6c452ebe0adeff503bdbb4.jpg" width="400px"></a>
+2024-04-16 00:33:37,887 - INFO - </td></tr><tr><td colspan="3"><a href="1358911-fg-0402-israelgazawar-mwy-105640.jpg.jpg"><img src="1358911-fg-0402-israelgazawar-mwy-105640.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:37,968 - INFO - </td></tr><tr><td colspan="3"><a href="21f71a3a802d421595d980866ebda28d.jpg"><img src="21f71a3a802d421595d980866ebda28d.jpg" width="400px"></a>
+2024-04-16 00:33:38,051 - INFO - </td></tr><tr><td colspan="3"><a href="b0fff33808bd47dbba02f641b84786fc.jpg"><img src="b0fff33808bd47dbba02f641b84786fc.jpg" width="400px"></a>
+2024-04-16 00:33:38,149 - INFO - </td></tr><tr><td colspan="3"><a href="gettyimages-1242121245.jpg.jpg"><img src="gettyimages-1242121245.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:38,221 - INFO - </td></tr><tr><td colspan="3"><a href="la-me-snow-survey-april-2024-001.JPG.jpg"><img src="la-me-snow-survey-april-2024-001.JPG.jpg" width="400px"></a>
+2024-04-16 00:33:38,299 - INFO - </td></tr><tr><td colspan="3"><a href="32084674653041bb8cb3b6907a62c623.jpg"><img src="32084674653041bb8cb3b6907a62c623.jpg" width="400px"></a>
+2024-04-16 00:33:38,494 - INFO - </td></tr><tr><td colspan="3"><a href="a65c220c32ad484b9ba2a099258ca527.jpg"><img src="a65c220c32ad484b9ba2a099258ca527.jpg" width="400px"></a>
+2024-04-16 00:33:38,564 - INFO - </td></tr><tr><td colspan="3"><a href="2133939683.jpg"><img src="2133939683.jpg" width="400px"></a>
+2024-04-16 00:33:38,646 - INFO - </td></tr><tr><td colspan="3"><a href="84a798f10bca4f7fa0549cae6b2dcc82.jpg"><img src="84a798f10bca4f7fa0549cae6b2dcc82.jpg" width="400px"></a>
+2024-04-16 00:33:40,661 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:44,943 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:33:50,298 - INFO - </td></tr><tr><td colspan="3"><a href="dbc64c89ca1e42f7b588465b5e4a3814.jpg"><img src="dbc64c89ca1e42f7b588465b5e4a3814.jpg" width="400px"></a>
+2024-04-16 00:33:50,377 - INFO - </td></tr><tr><td colspan="3"><a href="1378683-wk-soho-house-run-club-4-brv.jpg.jpg"><img src="1378683-wk-soho-house-run-club-4-brv.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:50,449 - INFO - </td></tr><tr><td colspan="3"><a href="idaho-state-of-the-state-86028.jpg.jpg"><img src="idaho-state-of-the-state-86028.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:50,538 - INFO - </td></tr><tr><td colspan="3"><a href="1431750-me-white-supremacist-laube-2-ajs.jpg.jpg"><img src="1431750-me-white-supremacist-laube-2-ajs.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:50,635 - INFO - </td></tr><tr><td colspan="3"><a href="f7a551f7c0d34620bf79202da05ddd68.jpg"><img src="f7a551f7c0d34620bf79202da05ddd68.jpg" width="400px"></a>
+2024-04-16 00:33:50,728 - INFO - </td></tr><tr><td colspan="3"><a href="787372846d68443490ccc24f6d615ac5.jpg"><img src="787372846d68443490ccc24f6d615ac5.jpg" width="400px"></a>
+2024-04-16 00:33:50,928 - INFO - </td></tr><tr><td colspan="3"><a href="alan-bergman-josh-damaro-jimmy-pitaro-and-dana-walden.jpg.jpg"><img src="alan-bergman-josh-damaro-jimmy-pitaro-and-dana-walden.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:51,013 - INFO - </td></tr><tr><td colspan="3"><a href="1431750-me-white-supremacist-laube-1-ajs.jpg.jpg"><img src="1431750-me-white-supremacist-laube-1-ajs.jpg.jpg" width="400px"></a>
+2024-04-16 00:33:51,104 - INFO - </td></tr><tr><td colspan="3"><a href="0e055863a3e5439696531a8f35068c36.jpg"><img src="0e055863a3e5439696531a8f35068c36.jpg" width="400px"></a>
+2024-04-16 00:33:51,181 - INFO - </td></tr><tr><td colspan="3"><a href="ade510de1db944129aa4b151d4361672.jpg"><img src="ade510de1db944129aa4b151d4361672.jpg" width="400px"></a>
+2024-04-16 00:33:53,196 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:35:16,728 - INFO - Started
+2024-04-16 00:35:22,760 - INFO - Downloaded webdriver to: C:\Users\Gary\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe
+2024-04-16 00:35:22,783 - INFO - Webdriver version taken into use: ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824})
+
+2024-04-16 00:35:22,783 - INFO - Creating an instance of the Chrome WebDriver.
+2024-04-16 00:35:23,974 - INFO - Created Chrome browser (version 123.0.6312) with arguments: --incognito --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+2024-04-16 00:35:23,974 - INFO - <p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+2024-04-16 00:35:23,975 - INFO - Opening url 'https://www.latimes.com/'
+2024-04-16 00:35:30,977 - INFO - Searching for news articles with the phrase 'ukraine' from the last month(s)
+2024-04-16 00:35:30,999 - INFO - Clicking button 'xpath://*[@data-element='search-button']'.
+2024-04-16 00:35:31,096 - INFO - Typing text 'ukraine' into text field 'xpath://*[@data-element='search-form-input']'.
+2024-04-16 00:35:31,146 - INFO - Sending key(s) ('ENTER',) to xpath://*[@data-element='search-form-input'] element.
+2024-04-16 00:35:31,433 - INFO - Pressing special key ENTER to element.
+2024-04-16 00:35:31,433 - INFO - Releasing special key ENTER.
+2024-04-16 00:35:37,570 - INFO - Sorting by most recent
+2024-04-16 00:35:37,570 - INFO - Selecting options from selection list 'name:s' by value 1.
+2024-04-16 00:35:39,750 - INFO - </td></tr><tr><td colspan="3"><a href="ap24106713918249.jpg.jpg"><img src="ap24106713918249.jpg.jpg" width="400px"></a>
+2024-04-16 00:35:39,918 - INFO - </td></tr><tr><td colspan="3"><a href="6a1df969325f443894592d7c3d752581.jpg"><img src="6a1df969325f443894592d7c3d752581.jpg" width="400px"></a>
+2024-04-16 00:35:39,993 - INFO - </td></tr><tr><td colspan="3"><a href="b3ab269c7d924e5e9b706548733e2846.jpg"><img src="b3ab269c7d924e5e9b706548733e2846.jpg" width="400px"></a>
+2024-04-16 00:35:40,078 - INFO - </td></tr><tr><td colspan="3"><a href="1334b1459e6141deaca3e127cacc5190.jpg"><img src="1334b1459e6141deaca3e127cacc5190.jpg" width="400px"></a>
+2024-04-16 00:35:40,155 - INFO - </td></tr><tr><td colspan="3"><a href="70fe4e455cea4e34965f719a34826b7a.jpg"><img src="70fe4e455cea4e34965f719a34826b7a.jpg" width="400px"></a>
+2024-04-16 00:35:40,229 - INFO - </td></tr><tr><td colspan="3"><a href="0d4bd79bb76e480daaab172ebf4f7158.jpg"><img src="0d4bd79bb76e480daaab172ebf4f7158.jpg" width="400px"></a>
+2024-04-16 00:35:40,308 - INFO - </td></tr><tr><td colspan="3"><a href="ae33874bdd884a53b5cf88c74112faf1.jpg"><img src="ae33874bdd884a53b5cf88c74112faf1.jpg" width="400px"></a>
+2024-04-16 00:35:40,386 - INFO - </td></tr><tr><td colspan="3"><a href="l4-1984-summer-olymp-33442.sff.jpg"><img src="l4-1984-summer-olymp-33442.sff.jpg" width="400px"></a>
+2024-04-16 00:35:40,465 - INFO - </td></tr><tr><td colspan="3"><a href="2144482742.jpg"><img src="2144482742.jpg" width="400px"></a>
+2024-04-16 00:35:40,629 - INFO - </td></tr><tr><td colspan="3"><a href="1425249-la-me-rocket-launch-vandenberg-01-ajs.jpg.jpg"><img src="1425249-la-me-rocket-launch-vandenberg-01-ajs.jpg.jpg" width="400px"></a>
+2024-04-16 00:35:42,643 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:35:46,273 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:35:50,433 - INFO - </td></tr><tr><td colspan="3"><a href="1a5f43f8f36147499076095ab3c2abc3.jpg"><img src="1a5f43f8f36147499076095ab3c2abc3.jpg" width="400px"></a>
+2024-04-16 00:35:50,510 - INFO - </td></tr><tr><td colspan="3"><a href="2db30807e6504874bcf6dd187772c866.jpg"><img src="2db30807e6504874bcf6dd187772c866.jpg" width="400px"></a>
+2024-04-16 00:35:50,581 - INFO - </td></tr><tr><td colspan="3"><a href="84099b7a8d5d473f800f0c920da8f485.jpg"><img src="84099b7a8d5d473f800f0c920da8f485.jpg" width="400px"></a>
+2024-04-16 00:35:50,660 - INFO - </td></tr><tr><td colspan="3"><a href="2004989823.jpg"><img src="2004989823.jpg" width="400px"></a>
+2024-04-16 00:35:50,768 - INFO - </td></tr><tr><td colspan="3"><a href="85e08a7fd77d4cb8a8671bb2714fe4e6.jpg"><img src="85e08a7fd77d4cb8a8671bb2714fe4e6.jpg" width="400px"></a>
+2024-04-16 00:35:50,952 - INFO - </td></tr><tr><td colspan="3"><a href="germany-politics-heating-law-46256.jpg.jpg"><img src="germany-politics-heating-law-46256.jpg.jpg" width="400px"></a>
+2024-04-16 00:35:51,024 - INFO - </td></tr><tr><td colspan="3"><a href="1414977-me-michael-lockshin-profile-jja-0024.jpg.jpg"><img src="1414977-me-michael-lockshin-profile-jja-0024.jpg.jpg" width="400px"></a>
+2024-04-16 00:35:51,097 - INFO - </td></tr><tr><td colspan="3"><a href="1428091-fo-cookbooks-recipes-diptych-handout.png.jpg"><img src="1428091-fo-cookbooks-recipes-diptych-handout.png.jpg" width="400px"></a>
+2024-04-16 00:35:51,193 - INFO - </td></tr><tr><td colspan="3"><a href="kitchen-cms-thumb.jpg.jpg"><img src="kitchen-cms-thumb.jpg.jpg" width="400px"></a>
+2024-04-16 00:35:51,287 - INFO - </td></tr><tr><td colspan="3"><a href="e91448adb072460ab2de4a2eb6a35fff.jpg"><img src="e91448adb072460ab2de4a2eb6a35fff.jpg" width="400px"></a>
+2024-04-16 00:35:53,300 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:35:57,070 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:36:02,595 - INFO - </td></tr><tr><td colspan="3"><a href="793f4ce19c9a443fbfb5688602c7cf55.jpg"><img src="793f4ce19c9a443fbfb5688602c7cf55.jpg" width="400px"></a>
+2024-04-16 00:36:02,670 - INFO - </td></tr><tr><td colspan="3"><a href="8d6e7bdaa5a641a59e4caf73a00fdae1.jpg"><img src="8d6e7bdaa5a641a59e4caf73a00fdae1.jpg" width="400px"></a>
+2024-04-16 00:36:02,739 - INFO - </td></tr><tr><td colspan="3"><a href="17f983a2bb034438875a7fbcdf642048.jpg"><img src="17f983a2bb034438875a7fbcdf642048.jpg" width="400px"></a>
+2024-04-16 00:36:02,809 - INFO - </td></tr><tr><td colspan="3"><a href="1400604-me-network-academy-belmont-high-school-12-ajs.jpg.jpg"><img src="1400604-me-network-academy-belmont-high-school-12-ajs.jpg.jpg" width="400px"></a>
+2024-04-16 00:36:02,905 - INFO - </td></tr><tr><td colspan="3"><a href="gettyimages-2126132783.jpg.jpg"><img src="gettyimages-2126132783.jpg.jpg" width="400px"></a>
+2024-04-16 00:36:02,978 - INFO - </td></tr><tr><td colspan="3"><a href="00a5ea7782414f3bbeca145578d85f0a.jpg"><img src="00a5ea7782414f3bbeca145578d85f0a.jpg" width="400px"></a>
+2024-04-16 00:36:03,055 - INFO - </td></tr><tr><td colspan="3"><a href="cc350df59f784d589066e41cf0944c88.jpg"><img src="cc350df59f784d589066e41cf0944c88.jpg" width="400px"></a>
+2024-04-16 00:36:03,133 - INFO - </td></tr><tr><td colspan="3"><a href="8710f238cd5b49a4bf6d305cd7d4f4b6.jpg"><img src="8710f238cd5b49a4bf6d305cd7d4f4b6.jpg" width="400px"></a>
+2024-04-16 00:36:03,206 - INFO - </td></tr><tr><td colspan="3"><a href="8f4e0850dd5b4556b68a1df613b99b1d.jpg"><img src="8f4e0850dd5b4556b68a1df613b99b1d.jpg" width="400px"></a>
+2024-04-16 00:36:03,290 - INFO - </td></tr><tr><td colspan="3"><a href="la-photos-1staff-671917-la-me-california-exodus-pandemic1-mam.jpg.jpg"><img src="la-photos-1staff-671917-la-me-california-exodus-pandemic1-mam.jpg.jpg" width="400px"></a>
+2024-04-16 00:36:05,292 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:36:08,705 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:36:14,294 - INFO - </td></tr><tr><td colspan="3"><a href="1426446-me-0330-rfk-cesar-chavez-gem-001.jpg.jpg"><img src="1426446-me-0330-rfk-cesar-chavez-gem-001.jpg.jpg" width="400px"></a>
+2024-04-16 00:36:14,363 - INFO - </td></tr><tr><td colspan="3"><a href="8f4e0850dd5b4556b68a1df613b99b1d.jpg"><img src="8f4e0850dd5b4556b68a1df613b99b1d.jpg" width="400px"></a>
+2024-04-16 00:36:14,437 - INFO - </td></tr><tr><td colspan="3"><a href="7f44eff7ee6c452ebe0adeff503bdbb4.jpg"><img src="7f44eff7ee6c452ebe0adeff503bdbb4.jpg" width="400px"></a>
+2024-04-16 00:36:14,505 - INFO - </td></tr><tr><td colspan="3"><a href="deda1ec8b2594b079c835e83cbad0d68.jpg"><img src="deda1ec8b2594b079c835e83cbad0d68.jpg" width="400px"></a>
+2024-04-16 00:36:14,602 - INFO - </td></tr><tr><td colspan="3"><a href="84a798f10bca4f7fa0549cae6b2dcc82.jpg"><img src="84a798f10bca4f7fa0549cae6b2dcc82.jpg" width="400px"></a>
+2024-04-16 00:36:14,680 - INFO - </td></tr><tr><td colspan="3"><a href="6a0efb1af281436f8cbe67f4f7d91b16.jpg"><img src="6a0efb1af281436f8cbe67f4f7d91b16.jpg" width="400px"></a>
+2024-04-16 00:36:14,756 - INFO - </td></tr><tr><td colspan="3"><a href="0e055863a3e5439696531a8f35068c36.jpg"><img src="0e055863a3e5439696531a8f35068c36.jpg" width="400px"></a>
+2024-04-16 00:36:14,832 - INFO - </td></tr><tr><td colspan="3"><a href="e5100fc0f6be4414a5b4b37d2dc8afb2.jpg"><img src="e5100fc0f6be4414a5b4b37d2dc8afb2.jpg" width="400px"></a>
+2024-04-16 00:36:14,903 - INFO - </td></tr><tr><td colspan="3"><a href="ade510de1db944129aa4b151d4361672.jpg"><img src="ade510de1db944129aa4b151d4361672.jpg" width="400px"></a>
+2024-04-16 00:36:14,976 - INFO - </td></tr><tr><td colspan="3"><a href="b756828a5301469ebba16668ea11024c.jpg"><img src="b756828a5301469ebba16668ea11024c.jpg" width="400px"></a>
+2024-04-16 00:36:16,989 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
+2024-04-16 00:36:22,310 - INFO - Clicking link 'xpath://div[@class='search-results-module-next-page']/a'.
