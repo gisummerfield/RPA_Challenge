@@ -287,11 +287,11 @@ class NewsScraper:
         """
         # Directory does not exist, create it
         file_path = os.path.join("output", self.file_name + ".xlsx")
-        if not os.path.exists("output"):
-            try:
-                os.mkdir("output")
-            except Exception as e:
-                logger.exception(f"Error creating directory: {e}")
+        # if not os.path.exists("output"):
+        #     try:
+        #         os.mkdir("output")
+        #     except Exception as e:
+        #         logger.exception(f"Error creating directory: {e}")
 
 
         # Create a new workbook.
@@ -323,8 +323,6 @@ if __name__ == "__main__":
     search_range = 2
 
     article_list = LAScraper.search(search_phrase, search_range)
-    for article in article_list:
-        print(article)
     LAScraper.export_articles_as_excel(article_list)
 
     # Test 2 #
@@ -334,8 +332,6 @@ if __name__ == "__main__":
 
     LAScraper.go_home_for_new_search()
     article_list = LAScraper.search(search_phrase, search_range)
-    for article in article_list:
-        print(article)
     LAScraper.export_articles_as_excel(article_list)
 
     LAScraper.browser.close_browser()
