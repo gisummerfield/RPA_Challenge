@@ -239,6 +239,7 @@ class NewsScrapper:
                     logging.info("Done finding aritcles")
                     return self.articles
 
+
             time.sleep(3)
 
             try:
