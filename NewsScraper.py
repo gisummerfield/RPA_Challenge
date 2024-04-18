@@ -11,14 +11,19 @@ from dateutil.relativedelta import relativedelta
 import requests
 from setup_logger import logger
 
+
 class NewsScraper:
+    """
+    Used to extract information of news articles based on a search term for the last x months.
+    Currently the NewsScraper only works for the LA Times website.
+    """
 
     def __init__(self):
         """
-        Used to extract information of news articles based on a search term for the last x months.
-
-        Currently the NewsScraper only works for the LA Times website.
+        Browser is opened at the La Times homepage when a new NewsScraper
+        object is created.
         """
+
         logger.info("Started")
 
         # List of all the articles, will be populated with lists.
@@ -68,8 +73,10 @@ class NewsScraper:
             return datetime(datetime.now().year, datetime.now(
             ).month, 1) - relativedelta(months=months - 1)
 
-
     def save_image(self, directory, image_source, image_filename):
+        """
+        Saves an image from a src link.
+        """
         # Saving image.
         try:
             response = requests.get(image_source)
@@ -81,10 +88,11 @@ class NewsScraper:
                     with open(directory + "/" + image_filename + ".jpg", 'wb') as f:
                         f.write(response.content)
             else:
-                logger.error("Failed to download image. Status code:", response.status_code)
+                logger.error(
+                    "Failed to download image. Status code:",
+                    response.status_code)
         except Exception as e:
             logger.error("Error occurred:", e)
-
 
     def extract_article_elements(self, element_html, search_phrase):
         """
@@ -118,7 +126,8 @@ class NewsScraper:
         contains_money = self.string_contains_money(
             title) or self.string_contains_money(description)
 
-        # Counting the number of occurrences of the search phrase in the title or description.
+        # Counting the number of occurrences of the search phrase in the title
+        # or description.
         phrase_count = (title.lower() + description.lower()
                         ).count(search_phrase.lower())
 
@@ -149,7 +158,6 @@ class NewsScraper:
         Currently only works for the LA Times website.
         """
 
-
         # Return empty list if a search is attempted while not at the homepage.
         if not self.at_homepage:
             logger.warning("Tried to search while not at the homepage!")
@@ -160,7 +168,8 @@ class NewsScraper:
         search_phrase = search_phrase
         search_range = search_range
 
-        # Generate a file/folder name based on the current date and search conditions.
+        # Generate a file/folder name based on the current date and search
+        # conditions.
         date_today = date.today()
         self.file_name = str(date_today) + "_" + \
             search_phrase + "_" + str(search_range)
@@ -203,7 +212,6 @@ class NewsScraper:
             "xpath://*[@data-element='search-form-input']", "ENTER")
 
         self.browser.wait_until_element_is_visible("name:s", timeout=5)
-        logger.info("Sorting by most recent")
         # Select an item in the dropdown by value
         self.browser.select_from_list_by_value("name:s", "1")
         time.sleep(2)
@@ -245,7 +253,10 @@ class NewsScraper:
                 # Return the articles if it does.
                 if self.get_start_of_search_range(search_range) <= date_object:
                     self.articles.append(article_info[:-1])
-                    self.save_image(directory_path, article_info[6], article_info[3])
+                    self.save_image(
+                        directory_path,
+                        article_info[6],
+                        article_info[3])
                 else:
                     logger.info("Done finding articles")
                     return self.articles
@@ -271,7 +282,6 @@ class NewsScraper:
     def export_articles_as_excel(self, articles):
         """
         Exports all the articles as a excel spreadsheet.
-
         Deletes file if it already exists.
         """
         if os.path.exists(self.file_name + ".xlsx"):
@@ -308,7 +318,6 @@ if __name__ == "__main__":
     article_list = LAScraper.search(search_phrase, search_range)
     LAScraper.export_articles_as_excel(article_list)
 
-
     # Test 2 #
     ##########
     search_phrase = "spain"
@@ -318,8 +327,4 @@ if __name__ == "__main__":
     article_list = LAScraper.search(search_phrase, search_range)
     LAScraper.export_articles_as_excel(article_list)
 
-
     LAScraper.browser.close_browser()
-
-
-
