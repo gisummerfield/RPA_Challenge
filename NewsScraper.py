@@ -287,17 +287,38 @@ class NewsScraper:
         # Save the workbook.
         wb.save(self.file_name + ".xlsx")
 
+    def go_home_for_new_search(self):
+        """
+        Navigates to the home page of the news site.
+        Used in preparation for a new search.
+        """
+        self.browser.go_to("https://www.latimes.com/")
+        self.at_homepage = True
+        self.articles = []
+
 
 if __name__ == "__main__":
-
-
-    # Test 1
-    search_phrase = "boeing"
-    search_range = 5
-
     LAScraper = NewsScraper()
+
+    # Test 1 #
+    ##########
+    search_phrase = "boeing"
+    search_range = 2
+
     article_list = LAScraper.search(search_phrase, search_range)
     LAScraper.export_articles_as_excel(article_list)
+
+
+    # Test 2 #
+    ##########
+    search_phrase = "spain"
+    search_range = 2
+
+    LAScraper.go_home_for_new_search()
+    article_list = LAScraper.search(search_phrase, search_range)
+    LAScraper.export_articles_as_excel(article_list)
+
+
     LAScraper.browser.close_browser()
 
 

@@ -17,6 +17,7 @@
     <li>Extract article elements such as title, date, description, and image name.</li>
     <li>Saves the article images in a separate folder.</li>
     <li>Export extracted articles as an Excel spreadsheet.</li>
+    <li>Can perform multiple searches provided that the go_home() function is used.</li>
 </ul>
 
 <h2>Installation</h2>
