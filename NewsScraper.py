@@ -1,4 +1,5 @@
 from RPA.Browser.Selenium import Selenium
+from RPA.Robocorp.Storage import Storage
 import time
 from datetime import datetime, date
 from bs4 import BeautifulSoup
@@ -316,6 +317,8 @@ if __name__ == "__main__":
     search_range = 2
 
     article_list = LAScraper.search(search_phrase, search_range)
+    for article in article_list:
+        print(article)
     LAScraper.export_articles_as_excel(article_list)
 
     # Test 2 #
@@ -325,6 +328,8 @@ if __name__ == "__main__":
 
     LAScraper.go_home_for_new_search()
     article_list = LAScraper.search(search_phrase, search_range)
+    for article in article_list:
+        print(article)
     LAScraper.export_articles_as_excel(article_list)
 
     LAScraper.browser.close_browser()
