@@ -73,7 +73,21 @@ class NewsScrapper:
             return datetime(datetime.now().year, datetime.now(
             ).month, 1) - relativedelta(months=months - 1)
 
-    def extract_article_elements(self, element_html, direcory, search_phrase):
+    @staticmethod
+    def save_image(directory, image_source, image_filename):
+        # Saving image.
+        try:
+            response = requests.get(image_source)
+            if response.status_code == 200:
+                with open(directory + "/" + image_filename + ".jpg", 'wb') as f:
+                    f.write(response.content)
+            else:
+                logging.error("Failed to download image. Status code:", response.status_code)
+        except Exception as e:
+            logging.error("Error occurred:", e)
+
+
+    def extract_article_elements(self, element_html, search_phrase):
         """
         Extracts various article elements from the article HTML.
 
@@ -81,7 +95,7 @@ class NewsScrapper:
         BeautifulSoup extracts the title, description, date and image source url.
 
         Extracted article elements are return as a list in the order:
-        title, date, description, image_filename, phrase_count, contains_money
+        title, date, description, image_filename, phrase_count, contains_money, image_source
 
         Currently only works for the LA Times website.
         """
@@ -97,20 +111,9 @@ class NewsScrapper:
         # Extracting date of the article.
         date = soup.find('p', class_='promo-timestamp').text.strip()
 
-        # Extracting image filename.
+        # Extracting image filename and soruce url.
         image_source = soup.find('img')['src']
         image_filename = image_source.split('%2F')[-1]
-
-        # Saving image.
-        try:
-            response = requests.get(image_source)
-            if response.status_code == 200:
-                with open(direcory + "/" + image_filename + ".jpg", 'wb') as f:
-                    f.write(response.content)
-            else:
-                print("Failed to download image. Status code:", response.status_code)
-        except Exception as e:
-            print("Error occurred:", e)
 
         # Determining if the title or description contains a dollar value.
         contains_money = self.string_contains_money(
@@ -121,7 +124,7 @@ class NewsScrapper:
                         ).count(search_phrase.lower())
 
         return [title, date, description, image_filename,
-                str(phrase_count), str(contains_money)]
+                str(phrase_count), str(contains_money), image_source]
 
     def search(self, search_phrase: str, search_range: int):
         """
@@ -221,7 +224,7 @@ class NewsScrapper:
 
                 # Extract element.
                 article_info = self.extract_article_elements(
-                    element_html, directory_path, search_phrase)
+                    element_html, search_phrase)
 
                 # If the article was very recently published then instead of a date
                 # it might say "5 hours ago". In this case, make the date today.
@@ -240,7 +243,8 @@ class NewsScrapper:
                 # Check if the latest article date falls outside the range.
                 # Return the articles if it does.
                 if self.get_start_of_search_range(search_range) <= date_object:
-                    self.articles.append(article_info)
+                    self.articles.append(article_info[:-1])
+                    self.save_image(directory_path, article_info[6], article_info[3])
                 else:
                     logging.info("Done finding aritcles")
                     return self.articles
@@ -279,7 +283,7 @@ if __name__ == "__main__":
 
     # Test 1
     search_phrase = "Spain"
-    search_range = 3
+    search_range = 2
 
     LAScrapper = NewsScrapper()
     article_list = LAScrapper.search(search_phrase, search_range)
