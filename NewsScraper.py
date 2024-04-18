@@ -83,10 +83,10 @@ class NewsScraper:
             response = requests.get(image_source)
             if response.status_code == 200:
                 if ".jpg" in image_filename or ".png" in image_filename:
-                    with open(directory + "/" + image_filename, 'wb') as f:
+                    with open(os.path.join("output", image_filename), 'wb') as f:
                         f.write(response.content)
                 else:
-                    with open(directory + "/" + image_filename + ".jpg", 'wb') as f:
+                    with open(os.path.join("output", image_filename + ".jpg"), 'wb') as f:
                         f.write(response.content)
             else:
                 logger.error(
@@ -177,21 +177,21 @@ class NewsScraper:
         directory_path = self.file_name
 
         # Delete files in directory if it already exists
-        directory_path = os.path.join("output", directory_path)
-        if os.path.exists(directory_path):
-            files = os.listdir(directory_path)
-            # Iterate over each file and delete it
-            for file in files:
-                file_path = os.path.join(directory_path, file)
-                # Check if the file is a regular file (not a directory)
-                if os.path.isfile(file_path):
-                    os.remove(file_path)
-        else:
-            # Directory does not exist, create it
-            try:
-                os.mkdir(directory_path)
-            except Exception as e:
-                logger.exception(f"Error creating directory: {e}")
+        # directory_path = os.path.join("output", directory_path)
+        # if os.path.exists(directory_path):
+        #     files = os.listdir(directory_path)
+        #     # Iterate over each file and delete it
+        #     for file in files:
+        #         file_path = os.path.join(directory_path, file)
+        #         # Check if the file is a regular file (not a directory)
+        #         if os.path.isfile(file_path):
+        #             os.remove(file_path)
+        # else:
+        #     # Directory does not exist, create it
+        #     try:
+        #         os.mkdir(directory_path)
+        #     except Exception as e:
+        #         logger.exception(f"Error creating directory: {e}")
 
         # Execute a search.
         logger.info(
