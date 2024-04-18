@@ -11,17 +11,26 @@ from dateutil.relativedelta import relativedelta
 import requests
 
 
-class NewsScrapper:
+class NewsScraper:
 
     def __init__(self):
         """
         Used to extract information of news articles based on a search term for the last x months.
 
-        Currently the NewsScrapper only works for the LA Times website.
+        Currently the NewsScraper only works for the LA Times website.
         """
-        #
+
         self.logger = logging.getLogger(__name__)
-        logging.info("Started")
+        self.logger.setLevel(logging.DEBUG)
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+        # Create a file handler and set its level to DEBUG
+        fh = logging.FileHandler("NewsScraper.log")
+        fh.setLevel(logging.DEBUG)
+        fh.setFormatter(formatter)
+
+
+        self.logger.info("Started")
 
         # List of all the articles, will be populated with lists.
         self.articles = []
@@ -72,8 +81,8 @@ class NewsScrapper:
             return datetime(datetime.now().year, datetime.now(
             ).month, 1) - relativedelta(months=months - 1)
 
-    @staticmethod
-    def save_image(directory, image_source, image_filename):
+
+    def save_image(self, directory, image_source, image_filename):
         # Saving image.
         try:
             response = requests.get(image_source)
@@ -81,9 +90,9 @@ class NewsScrapper:
                 with open(directory + "/" + image_filename + ".jpg", 'wb') as f:
                     f.write(response.content)
             else:
-                logging.error("Failed to download image. Status code:", response.status_code)
+                self.logger.error("Failed to download image. Status code:", response.status_code)
         except Exception as e:
-            logging.error("Error occurred:", e)
+            self.logger.error("Error occurred:", e)
 
 
     def extract_article_elements(self, element_html, search_phrase):
@@ -152,7 +161,7 @@ class NewsScrapper:
 
         # Return empty list if a search is attempted while not at the homepage.
         if not self.at_homepage:
-            logging.warning("Tried to search while not at the homepage!")
+            self.logger.warning("Tried to search while not at the homepage!")
             return []
 
         # No longer at the home page
@@ -180,10 +189,10 @@ class NewsScrapper:
             try:
                 os.mkdir(directory_path)
             except Exception as e:
-                logging.error(f"Error creating directory: {e}")
+                self.logger.exception(f"Error creating directory: {e}")
 
         # Execute a search.
-        logging.info(
+        self.logger.info(
             "Searching for news articles with the phrase \'" +
             search_phrase +
             "\' from the last" +
@@ -202,8 +211,7 @@ class NewsScrapper:
         self.browser.press_keys(
             "xpath://*[@data-element='search-form-input']", "ENTER")
 
-        time.sleep(2)
-
+        self.browser.wait_until_element_is_visible("name:s")
         self.logger.info("Sorting by most recent")
         # Select an item in the dropdown by value
         self.browser.select_from_list_by_value("name:s", "1")
@@ -246,7 +254,7 @@ class NewsScrapper:
                     self.articles.append(article_info[:-1])
                     self.save_image(directory_path, article_info[6], article_info[3])
                 else:
-                    logging.info("Done finding aritcles")
+                    self.logger.info("Done finding aritcles")
                     return self.articles
 
 
@@ -284,14 +292,15 @@ class NewsScrapper:
 
 if __name__ == "__main__":
 
-    # Test 1
-    search_phrase = "Spain"
-    search_range = 2
 
-    LAScrapper = NewsScrapper()
-    article_list = LAScrapper.search(search_phrase, search_range)
-    LAScrapper.export_articles_as_excel(article_list)
-    LAScrapper.browser.close_browser()
+    # Test 1
+    search_phrase = "spain"
+    search_range = 6
+
+    LAScraper = NewsScraper()
+    article_list = LAScraper.search(search_phrase, search_range)
+    LAScraper.export_articles_as_excel(article_list)
+    LAScraper.browser.close_browser()
 
 
 

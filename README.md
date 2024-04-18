@@ -6,9 +6,9 @@
 </head>
 <body>
 
-<h1>NewsScrapper</h1>
+<h1>NewsScraper</h1>
 
-<p>NewsScrapper is my approach to the RPA Challenge - Fresh news 2.0 challenge. It is a Python tool designed for extracting information from news articles based on a search term and a specified time range. Currently, it only supports extracting data from the LA Times website.</p>
+<p>NewsScraper is my approach to the RPA Challenge - Fresh news 2.0 challenge. It is a Python tool designed for extracting information from news articles based on a search term and a specified time range. Currently, it only supports extracting data from the LA Times website.</p>
 
 <h2>Features</h2>
 
@@ -23,19 +23,19 @@
 
 <ol>
     <li>Clone the repository:</li>
-    <code>git clone https://github.com/your_username/NewsScrapper.git</code>
+    <code>git clone https://github.com/your_username/NewsScraper.git</code>
     <li>Install the required dependencies:</li>
     <code>pip install -r requirements.txt</code>
 </ol>
 
 <h2>Usage</h2>
 
-<p>To use NewsScrapper, follow these steps:</p>
+<p>To use NewsScraper, follow these steps:</p>
 
 <ol>
-    <li>Modify the <code>search_phrase</code> and <code>search_range</code> variables in the <code>__main__</code> block of the <code>NewsScrapper.py</code> script to specify your search criteria.</li>
-    <li>Run the <code>NewsScrapper.py</code> script:</li>
-    <code>python NewsScrapper.py</code>
+    <li>Modify the <code>search_phrase</code> and <code>search_range</code> variables in the <code>__main__</code> block of the <code>NewsScraper.py</code> script to specify your search criteria.</li>
+    <li>Run the <code>NewsScraper.py</code> script:</li>
+    <code>python NewsScraper.py</code>
     <li>The tool will initiate a search on the LA Times website, extract relevant articles, and save them as an Excel spreadsheet in the current directory.</li>
 </ol>
 
@@ -47,10 +47,10 @@
 search_phrase = "Spain"
 search_range = 2
 
-LAScrapper = NewsScrapper()
-article_list = LAScrapper.search(search_phrase, search_range)
-LAScrapper.export_articles_as_excel(article_list)
-LAScrapper.browser.close_browser()
+LAScraper = NewsScraper()
+article_list = LAScraper.search(search_phrase, search_range)
+LAScraper.export_articles_as_excel(article_list)
+LAScraper.browser.close_browser()
     </pre>
 </code>
 
