@@ -1,5 +1,5 @@
 tasks:
-  Read the Emails:
+  LA News Scraper:
     shell: python -m NewsScraper --report NONE --outputdir output --logtitle "Task log" tasks.robot
 
 condaConfigFile: conda.yaml

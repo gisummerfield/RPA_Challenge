@@ -4,12 +4,9 @@ channels:
 dependencies:
   - python=3.9                # https://pyreadiness.org/3.10
   - pip=23.2.1                    # https://pip.pypa.io/en/stable/news
-  - robocorp-truststore=0.8.0     # https://pypi.org/project/robocorp-truststore/
-  - selenium
   - beautifulsoup4
   - openpyxl
   - requests
   - pip:
     - rpaframework==28.5.1        # https://rpaframework.org/releasenotes.html
-    - robocorp==2.0.1             # https://pypi.org/project/robocorp
-    - robocorp-browser==2.3.3     # https://pypi.org/project/robocorp-browser
+
