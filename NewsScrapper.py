@@ -102,9 +102,15 @@ class NewsScrapper:
         image_filename = image_source.split('%2F')[-1]
 
         # Saving image.
-        self.browser.capture_element_screenshot(
-            "xpath://img[@src=\"" + image_source + "\"]",
-            direcory + "/" + image_filename + ".jpg")
+        try:
+            response = requests.get(image_source)
+            if response.status_code == 200:
+                with open(direcory + "/" + image_filename + ".jpg", 'wb') as f:
+                    f.write(response.content)
+            else:
+                print("Failed to download image. Status code:", response.status_code)
+        except Exception as e:
+            print("Error occurred:", e)
 
         # Determining if the title or description contains a dollar value.
         contains_money = self.string_contains_money(
