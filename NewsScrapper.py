@@ -5,7 +5,6 @@ from datetime import datetime, date
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import ElementClickInterceptedException
 import os
-import stat
 import re
 from openpyxl import Workbook
 from dateutil.relativedelta import relativedelta
@@ -167,20 +166,21 @@ class NewsScrapper:
             search_phrase + "_" + str(search_range)
         directory_path = self.file_name
 
-        # Attempt to delete the directory if it already exists.
-        # TODO: Fix this!
+        # Delete files in directory if it already exists
         if os.path.exists(directory_path):
-            try:
-                os.remove(directory_path)
-            except Exception as e:
-                print(f"Error deleting directory: {e}")
+            files = os.listdir(directory_path)
+            # Iterate over each file and delete it
+            for file in files:
+                file_path = os.path.join(directory_path, file)
+                # Check if the file is a regular file (not a directory)
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
         else:
             # Directory does not exist, create it
             try:
                 os.mkdir(directory_path)
-                os.chmod(directory_path, stat.S_IRWXU)
             except Exception as e:
-                print(f"Error creating directory: {e}")
+                logging.error(f"Error creating directory: {e}")
 
         # Execute a search.
         logging.info(
@@ -265,7 +265,12 @@ class NewsScrapper:
     def export_articles_as_excel(self, articles):
         """
         Exports all the articles as a excel spreadsheet.
+
+        Deletes file if it already exists.
         """
+        if os.path.exists(self.file_name + ".xlsx"):
+            os.remove(self.file_name + ".xlsx")
+
         # Create a new workbook.
         wb = Workbook()
         # Select the active worksheet.
@@ -275,8 +280,6 @@ class NewsScrapper:
             ws.append(row)
         # Save the workbook.
         wb.save(self.file_name + ".xlsx")
-
-    time.sleep(2)
 
 
 if __name__ == "__main__":
