@@ -74,8 +74,12 @@ class NewsScraper:
         try:
             response = requests.get(image_source)
             if response.status_code == 200:
-                with open(directory + "/" + image_filename + ".jpg", 'wb') as f:
-                    f.write(response.content)
+                if ".jpg" in image_filename or ".png" in image_filename:
+                    with open(directory + "/" + image_filename, 'wb') as f:
+                        f.write(response.content)
+                else:
+                    with open(directory + "/" + image_filename + ".jpg", 'wb') as f:
+                        f.write(response.content)
             else:
                 logger.error("Failed to download image. Status code:", response.status_code)
         except Exception as e:
@@ -198,15 +202,15 @@ class NewsScraper:
         self.browser.press_keys(
             "xpath://*[@data-element='search-form-input']", "ENTER")
 
-        self.browser.wait_until_element_is_visible("name:s")
+        self.browser.wait_until_element_is_visible("name:s", timeout=5)
         logger.info("Sorting by most recent")
         # Select an item in the dropdown by value
         self.browser.select_from_list_by_value("name:s", "1")
+        time.sleep(2)
 
         # Repeat until article date is outside the search range.
         while True:
             # Wait for the articles to appear
-            self.browser.wait_until_element_is_visible("xpath://div[@class='promo-wrapper']")
             time.sleep(1)
 
             # Find all article elements
@@ -288,8 +292,8 @@ if __name__ == "__main__":
 
 
     # Test 1
-    search_phrase = "spain"
-    search_range = 6
+    search_phrase = "boeing"
+    search_range = 5
 
     LAScraper = NewsScraper()
     article_list = LAScraper.search(search_phrase, search_range)
