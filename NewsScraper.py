@@ -1,9 +1,9 @@
 from RPA.Browser.Selenium import Selenium
-import logging
 import time
 from datetime import datetime, date
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import ElementClickInterceptedException
+from SeleniumLibrary.errors import ElementNotFound
 import os
 import re
 from openpyxl import Workbook
@@ -19,10 +19,6 @@ class NewsScraper:
 
         Currently the NewsScraper only works for the LA Times website.
         """
-
-
-
-
         logger.info("Started")
 
         # List of all the articles, will be populated with lists.
@@ -42,8 +38,6 @@ class NewsScraper:
         # This is the name of the directory where the images are
         # saved and is used as the name of the excel file.
         self.file_name = ""
-
-        time.sleep(2)       # Wait a little extra to ensure everything is loaded before a search occurs.
 
     @staticmethod
     def string_contains_money(string):
@@ -209,10 +203,12 @@ class NewsScraper:
         # Select an item in the dropdown by value
         self.browser.select_from_list_by_value("name:s", "1")
 
-        time.sleep(2)
-
         # Repeat until article date is outside the search range.
         while True:
+            # Wait for the articles to appear
+            self.browser.wait_until_element_is_visible("xpath://div[@class='promo-wrapper']")
+            time.sleep(1)
+
             # Find all article elements
             article_elements = self.browser.find_elements(
                 "xpath://div[@class='promo-wrapper']")
@@ -247,21 +243,26 @@ class NewsScraper:
                     self.articles.append(article_info[:-1])
                     self.save_image(directory_path, article_info[6], article_info[3])
                 else:
-                    logger.info("Done finding aritcles")
+                    logger.info("Done finding articles")
                     return self.articles
 
-
-            time.sleep(3)
-
             try:
-                # Go to next page of the articles
+                # Go to next page of the articles.
                 self.browser.click_link(
                     "xpath://div[@class='search-results-module-next-page']/a")
+
+            # For if the banner gets in the way.
             except ElementClickInterceptedException:
                 self.browser.reload_page()
                 time.sleep(1)
                 self.browser.click_link(
                     "xpath://div[@class='search-results-module-next-page']/a")
+
+            # For when the next button is no longer available.
+            except ElementNotFound as e:
+                logger.exception("Element not found error:" + str(e))
+                logger.info("Done finding articles, end or selection")
+                return self.articles
 
     def export_articles_as_excel(self, articles):
         """
