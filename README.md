@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsScrapper</title>
 </head>
 <body>
 
 <h1>NewsScrapper</h1>
 
-<p>NewsScrapper is a Python tool designed for extracting information from news articles based on a search term and a specified time range. Currently, it supports extracting data from the LA Times website.</p>
+<p>NewsScrapper is my approach to the RPA Challenge - Fresh news 2.0 challenge. It is a Python tool designed for extracting information from news articles based on a search term and a specified time range. Currently, it only supports extracting data from the LA Times website.</p>
 
 <h2>Features</h2>
 
 <ul>
     <li>Search for news articles based on a search phrase and a specified time range.</li>
-    <li>Extract article elements such as title, date, description, and image source URL.</li>
+    <li>Extract article elements such as title, date, description, and image name.</li>
+    <li>Saves the article images in a separate folder.</li>
     <li>Export extracted articles as an Excel spreadsheet.</li>
 </ul>
 
@@ -57,10 +57,6 @@ LAScrapper.browser.close_browser()
 <h2>Contributing</h2>
 
 <p>Contributions are welcome! If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.</p>
-
-<h2>License</h2>
-
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 </body>
 </html>
