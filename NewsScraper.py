@@ -177,6 +177,7 @@ class NewsScraper:
         directory_path = self.file_name
 
         # Delete files in directory if it already exists
+        directory_path = os.path.join("output", directory_path)
         if os.path.exists(directory_path):
             files = os.listdir(directory_path)
             # Iterate over each file and delete it
