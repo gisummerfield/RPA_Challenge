@@ -285,8 +285,14 @@ class NewsScraper:
         Exports all the articles as a excel spreadsheet.
         Deletes file if it already exists.
         """
-        if os.path.exists(self.file_name + ".xlsx"):
-            os.remove(self.file_name + ".xlsx")
+        # Directory does not exist, create it
+        file_path = os.path.join("output", self.file_name + ".xlsx")
+        if not os.path.exists("output"):
+            try:
+                os.mkdir("output")
+            except Exception as e:
+                logger.exception(f"Error creating directory: {e}")
+
 
         # Create a new workbook.
         wb = Workbook()
@@ -296,7 +302,7 @@ class NewsScraper:
         for row in articles:
             ws.append(row)
         # Save the workbook.
-        wb.save(self.file_name + ".xlsx")
+        wb.save(file_path)
 
     def go_home_for_new_search(self):
         """
