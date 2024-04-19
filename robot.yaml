@@ -1,6 +1,6 @@
 tasks:
   LA News Scraper:
-    shell: python -m LA_News_Search --report NONE --outputdir output --logtitle "Task log" tasks.robot
+    shell: python -m robocorp.tasks run LA_News_Search.py
 
 condaConfigFile: conda.yaml
 artifactsDir: output
@@ -8,3 +8,6 @@ PATH:
   - .
 PYTHONPATH:
   - .
+
+ignoreFiles:
+  - .gitignore
