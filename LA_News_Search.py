@@ -9,22 +9,22 @@ Example script showing how to use the NewsScraper class.
 
 LAScraper = NewsScraper()                                       # Create NewsScraper object.
 
+
+
 ##############
 ### Test 1 ###
 ##############
-@task
-def search1():
-    input_data = workitems.Input()
 
-    # Set search terms.
-    search_phrase = input_data['search_phrase']
-    search_range = input_data['search_range']
+input_data = workitems.Input()
 
-    article_list = LAScraper.search(search_phrase, search_range)    # Perform a search.
-    LAScraper.export_articles_as_excel(article_list)                # Export articles to Excel file.
-    LAScraper.zip_images()                                          # Zip images.
-    LAScraper.browser.close_browser()                               # Close browser.
+# Set search terms.
+search_phrase = input_data['search_phrase']
+search_range = input_data['search_range']
 
+article_list = LAScraper.search(search_phrase, search_range)    # Perform a search.
+LAScraper.export_articles_as_excel(article_list)                # Export articles to Excel file.
+LAScraper.zip_images()                                          # Zip images.
+LAScraper.browser.close_browser()                               # Close browser.
 
 ##############
 ### Test 1 ###
