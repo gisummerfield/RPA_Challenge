@@ -22,5 +22,6 @@ def search():
         LAScraper.export_articles_as_excel(article_list)                # Export articles to Excel file.
         LAScraper.zip_images()                                          # Zip images.
         LAScraper.reset_for_new_search()                                # Reset the NewsScraper for a new search.
-        LAScraper.browser.close_browser()                               # Close browser.
+
+    LAScraper.browser.close_browser()                               # Close browser.
 
