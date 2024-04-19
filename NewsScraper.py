@@ -84,14 +84,10 @@ class NewsScraper:
         try:
             response = requests.get(image_source)
             if response.status_code == 200:
-                if ".jpg" in image_filename or ".png" in image_filename:
-                    with open(image_filename, 'wb') as f:
-                        f.write(response.content)
-                    self.image_file_names.append(image_filename)
-                else:
-                    with open(image_filename + ".jpg", 'wb') as f:
-                        f.write(response.content)
-                    self.image_file_names.append(image_filename + ".jpg")
+                with open(image_filename, 'wb') as f:
+                    f.write(response.content)
+                self.image_file_names.append(image_filename)
+
             else:
                 logger.error(
                     "Failed to download image. Status code:",
@@ -126,6 +122,8 @@ class NewsScraper:
         # Extracting image filename and soruce url.
         image_source = soup.find('img')['src']
         image_filename = image_source.split('%2F')[-1]
+        if not (".jpg" in image_filename or ".JPG" in image_filename or ".png" in image_filename):
+            image_filename = image_filename + ".jpg"
 
         # Determining if the title or description contains a dollar value.
         contains_money = self.string_contains_money(
@@ -135,6 +133,7 @@ class NewsScraper:
         # or description.
         phrase_count = (title.lower() + description.lower()
                         ).count(search_phrase.lower())
+
 
         return [title, date, description, image_filename,
                 str(phrase_count), str(contains_money), image_source]
