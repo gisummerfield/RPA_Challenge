@@ -1,5 +1,4 @@
 from RPA.Browser.Selenium import Selenium
-from RPA.Robocorp.Storage import Storage
 import time
 from datetime import datetime, date
 from bs4 import BeautifulSoup
@@ -11,6 +10,7 @@ from openpyxl import Workbook
 from dateutil.relativedelta import relativedelta
 import requests
 from setup_logger import logger
+import zipfile
 
 
 class NewsScraper:
@@ -44,6 +44,8 @@ class NewsScraper:
         # This is the name of the directory where the images are
         # saved and is used as the name of the excel file.
         self.file_name = ""
+        self.image_file_names = []
+        self.zip_file_path = ""
 
     @staticmethod
     def string_contains_money(string):
@@ -83,11 +85,13 @@ class NewsScraper:
             response = requests.get(image_source)
             if response.status_code == 200:
                 if ".jpg" in image_filename or ".png" in image_filename:
-                    with open(os.path.join("output", image_filename), 'wb') as f:
+                    with open(image_filename, 'wb') as f:
                         f.write(response.content)
+                    self.image_file_names.append(image_filename)
                 else:
-                    with open(os.path.join("output", image_filename + ".jpg"), 'wb') as f:
+                    with open(image_filename + ".jpg", 'wb') as f:
                         f.write(response.content)
+                    self.image_file_names.append(image_filename + ".jpg")
             else:
                 logger.error(
                     "Failed to download image. Status code:",
@@ -176,22 +180,8 @@ class NewsScraper:
             search_phrase + "_" + str(search_range)
         directory_path = self.file_name
 
-        # Delete files in directory if it already exists
-        # directory_path = os.path.join("output", directory_path)
-        # if os.path.exists(directory_path):
-        #     files = os.listdir(directory_path)
-        #     # Iterate over each file and delete it
-        #     for file in files:
-        #         file_path = os.path.join(directory_path, file)
-        #         # Check if the file is a regular file (not a directory)
-        #         if os.path.isfile(file_path):
-        #             os.remove(file_path)
-        # else:
-        #     # Directory does not exist, create it
-        #     try:
-        #         os.mkdir(directory_path)
-        #     except Exception as e:
-        #         logger.exception(f"Error creating directory: {e}")
+        # Create zip directory path.
+        self.zip_file_path = os.path.join("output", "Images_" + directory_path + ".zip")
 
         # Execute a search.
         logger.info(
@@ -305,7 +295,7 @@ class NewsScraper:
         # Save the workbook.
         wb.save(file_path)
 
-    def go_home_for_new_search(self):
+    def reset_for_new_search(self):
         """
         Navigates to the home page of the news site.
         Used in preparation for a new search.
@@ -313,7 +303,14 @@ class NewsScraper:
         self.browser.go_to("https://www.latimes.com/")
         self.at_homepage = True
         self.articles = []
+        self.zip_file_path = ""
+        self.image_file_names = []
 
+    def zip_images(self):
+        with zipfile.ZipFile(self.zip_file_path, 'w') as my_zip:
+            # Add each file to the zip
+            for file in self.image_file_names:
+                my_zip.write(file)
 
 if __name__ == "__main__":
     LAScraper = NewsScraper()
@@ -325,14 +322,16 @@ if __name__ == "__main__":
 
     article_list = LAScraper.search(search_phrase, search_range)
     LAScraper.export_articles_as_excel(article_list)
+    LAScraper.zip_images()
 
     # Test 2 #
     ##########
     search_phrase = "spain"
     search_range = 2
 
-    LAScraper.go_home_for_new_search()
+    LAScraper.reset_for_new_search()
     article_list = LAScraper.search(search_phrase, search_range)
     LAScraper.export_articles_as_excel(article_list)
+    LAScraper.zip_images()
 
     LAScraper.browser.close_browser()
