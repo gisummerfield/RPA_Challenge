@@ -1,6 +1,6 @@
 from robocorp.tasks import task
 from robocorp import workitems
-from robocorp.workitems import Input
+# from robocorp.workitems import Input
 
 from NewsScraper import NewsScraper
 """
@@ -14,9 +14,11 @@ LAScraper = NewsScraper()                                       # Create NewsScr
 ##############
 @task
 def search1():
+    input_data = workitems.Input()
+
     # Set search terms.
-    search_phrase = workitems.payload['search_phrase']
-    search_range = workitems.payload['search_range']
+    search_phrase = input_data['search_phrase']
+    search_range = input_data['search_range']
 
     article_list = LAScraper.search(search_phrase, search_range)    # Perform a search.
     LAScraper.export_articles_as_excel(article_list)                # Export articles to Excel file.
