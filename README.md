@@ -17,7 +17,8 @@
     <li>Extract article elements such as title, date, description, and image name.</li>
     <li>Saves the article images in a separate folder.</li>
     <li>Export extracted articles as an Excel spreadsheet.</li>
-    <li>Can perform multiple searches provided that the go_home() function is used.</li>
+    <li>Can perform multiple searches provided that the reset_for_new_search() function is used.</li>
+    <li>Has the ability to zip all the images into one file (Recommended for Robocloud use).</li>
 </ul>
 
 <h2>Installation</h2>
@@ -34,10 +35,11 @@
 <p>To use NewsScraper, follow these steps:</p>
 
 <ol>
-    <li>Modify the <code>search_phrase</code> and <code>search_range</code> variables in the <code>__main__</code> block of the <code>NewsScraper.py</code> script to specify your search criteria.</li>
-    <li>Run the <code>NewsScraper.py</code> script:</li>
-    <code>python NewsScraper.py</code>
-    <li>The tool will initiate a search on the LA Times website, extract relevant articles, and save them as an Excel spreadsheet in the current directory.</li>
+    <li>Modify the <code>search_phrase</code> and <code>search_range</code> variables in the <code>LA_News_Search.py</code> script to specify your search criteria.</li>
+    <li>Run the <code>LA_News_Search.py</code> script:</li>
+    <code>python LA_News_Search.py</code>
+    <li>The tool will initiate a search on the LA Times website, extract relevant articles, and save them as an Excel spreadsheet in the output directory.</li>
+    <li>A zip file of the images is also created in the output directory.</li>
 </ol>
 
 <h2>Example</h2>
@@ -51,6 +53,7 @@ search_range = 2
 LAScraper = NewsScraper()
 article_list = LAScraper.search(search_phrase, search_range)
 LAScraper.export_articles_as_excel(article_list)
+LAScraper.zip_images()
 LAScraper.browser.close_browser()
     </pre>
 </code>

@@ -1,6 +1,6 @@
 tasks:
   LA News Scraper:
-    shell: python -m NewsScraper --report NONE --outputdir output --logtitle "Task log" tasks.robot
+    shell: python -m LA_News_Search --report NONE --outputdir output --logtitle "Task log" tasks.robot
 
 condaConfigFile: conda.yaml
 artifactsDir: output
