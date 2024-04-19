@@ -8,7 +8,7 @@
 
 <h1>NewsScraper</h1>
 
-<p>NewsScraper is my approach to the RPA Challenge - Fresh news 2.0 challenge. It is a Python tool designed for extracting information from news articles based on a search term and a specified time range. Currently, it only supports extracting data from the LA Times website.</p>
+<p>NewsScraper is my approach to the RPA Challenge - Fresh news 2.0 challenge. It is a Python tool designed for extracting information from news articles based on a search term and a specified time range. Currently, it only supports extracting data from the LA Times website. It is designed to work on the Robocloud platform and accepts Work Items as inputs.</p>
 
 <h2>Features</h2>
 
@@ -35,28 +35,43 @@
 <p>To use NewsScraper, follow these steps:</p>
 
 <ol>
-    <li>Modify the <code>search_phrase</code> and <code>search_range</code> variables in the <code>LA_News_Search.py</code> script to specify your search criteria.</li>
-    <li>Run the <code>LA_News_Search.py</code> script:</li>
-    <code>python LA_News_Search.py</code>
-    <li>The tool will initiate a search on the LA Times website, extract relevant articles, and save them as an Excel spreadsheet in the output directory.</li>
-    <li>A zip file of the images is also created in the output directory.</li>
+    <li>Create a Roblocloud Task by setting the Origin to this git repository.</li>
+    <li>Create an unattended process based on the previously setup task.</li>
+    <li>Create any number of work items based on the search phrase and search range. Example: <code>{
+    "search_phrase": "Nvidia",
+    "search_range": 2
+}</code> </li>
+    <li>Select and run the work items.</li>
 </ol>
 
 <h2>Example</h2>
 
-<code>
-    <pre>
-# Example usage
-search_phrase = "Spain"
-search_range = 2
-
-LAScraper = NewsScraper()
-article_list = LAScraper.search(search_phrase, search_range)
-LAScraper.export_articles_as_excel(article_list)
-LAScraper.zip_images()
-LAScraper.browser.close_browser()
-    </pre>
-</code>
+<pre><code>
+        from robocorp import workitems
+        from robocorp.tasks import task
+    
+        from NewsScraper import NewsScraper
+        # Example script showing how to use the NewsScraper class.
+        
+        LAScraper = NewsScraper()                                       # Create NewsScraper object.
+        
+        @task
+        def search():
+            for input_data in workitems.inputs:
+                print("Received payload:", input_data.payload)
+        
+                # Set search terms.
+                search_phrase = input_data.payload['search_phrase']
+                search_range = input_data.payload['search_range']
+        
+                article_list = LAScraper.search(search_phrase, search_range)    # Perform a search.
+                LAScraper.export_articles_as_excel(article_list)                # Export articles to Excel file.
+                LAScraper.zip_images()                                          # Zip images.
+                LAScraper.reset_for_new_search()                                # Reset the NewsScraper for a new search.
+        
+            LAScraper.browser.close_browser()                               # Close browser.
+    
+</code></pre>
 
 <h2>Contributing</h2>
 

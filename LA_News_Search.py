@@ -1,11 +1,7 @@
 from robocorp import workitems
 from robocorp.tasks import task
-# from robocorp.workitems import Input
 
 from NewsScraper import NewsScraper
-"""
-Example script showing how to use the NewsScraper class.
-"""
 
 LAScraper = NewsScraper()                                       # Create NewsScraper object.
 
