@@ -9,13 +9,13 @@ Example script showing how to use the NewsScraper class.
 
 LAScraper = NewsScraper()                                       # Create NewsScraper object.
 
-
-
 ##############
 ### Test 1 ###
 ##############
 @task
 def search1():
+    for item in workitems.inputs:
+        print("Received payload:", item.payload)
     input_data = workitems.inputs
     print("Received payload:", input_data)
 
