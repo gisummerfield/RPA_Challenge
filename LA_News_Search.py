@@ -14,14 +14,12 @@ LAScraper = NewsScraper()                                       # Create NewsScr
 ##############
 @task
 def search1():
-    for item in workitems.inputs:
-        print("Received payload:", item.payload)
-    input_data = workitems.inputs
-    print("Received payload:", input_data)
+    input_data = workitems.inputs.current
+    print("Received payload:", input_data.payload)
 
     # Set search terms.
-    search_phrase = input_data.current.payload['search_phrase']
-    search_range = input_data.current.payload['search_range']
+    search_phrase = input_data.payload['search_phrase']
+    search_range = input_data.payload['search_range']
 
     article_list = LAScraper.search(search_phrase, search_range)    # Perform a search.
     LAScraper.export_articles_as_excel(article_list)                # Export articles to Excel file.
