@@ -1,5 +1,5 @@
-from robocorp.tasks import task
 from robocorp import workitems
+from robocorp.tasks import task
 # from robocorp.workitems import Input
 
 from NewsScraper import NewsScraper
@@ -16,7 +16,8 @@ LAScraper = NewsScraper()                                       # Create NewsScr
 ##############
 @task
 def search1():
-    input_data = workitems.inputs.payload
+    input_data = workitems.inputs.current.payload
+    print("Received payload:", input_data)
 
     # Set search terms.
     search_phrase = input_data['search_phrase']
