@@ -16,7 +16,7 @@ LAScraper = NewsScraper()                                       # Create NewsScr
 ##############
 @task
 def search1():
-    input_data = workitems.inputs.current.payload
+    input_data = workitems.inputs.current
     print("Received payload:", input_data)
 
     # Set search terms.
