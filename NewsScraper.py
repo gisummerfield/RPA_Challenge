@@ -67,14 +67,12 @@ class NewsScraper:
     def get_start_of_search_range(months):
         """
         Gets the start of the search range (date) according to the number of search months.
-
         Returns a datetime object.
         """
         if months < 2:
             return datetime(datetime.now().year, datetime.now().month, 1)
         else:
-            return datetime(datetime.now().year, datetime.now(
-            ).month, 1) - relativedelta(months=months - 1)
+            return datetime(datetime.now().year, datetime.now().month, 1) - relativedelta(months=months - 1)
 
     def save_image(self, directory, image_source, image_filename):
         """
@@ -126,13 +124,11 @@ class NewsScraper:
             image_filename = image_filename + ".jpg"
 
         # Determining if the title or description contains a dollar value.
-        contains_money = self.string_contains_money(
-            title) or self.string_contains_money(description)
+        contains_money = self.string_contains_money(title) or self.string_contains_money(description)
 
         # Counting the number of occurrences of the search phrase in the title
         # or description.
-        phrase_count = (title.lower() + description.lower()
-                        ).count(search_phrase.lower())
+        phrase_count = (title.lower() + description.lower()).count(search_phrase.lower())
 
 
         return [title, date, description, image_filename,
@@ -175,20 +171,15 @@ class NewsScraper:
         # Generate a file/folder name based on the current date and search
         # conditions.
         date_today = date.today()
-        self.file_name = str(date_today) + "_" + \
-            search_phrase + "_" + str(search_range)
+        self.file_name = str(date_today) + "_" + search_phrase + "_" + str(search_range)
         directory_path = self.file_name
 
         # Create zip directory path.
         self.zip_file_path = os.path.join("output", "Images_" + directory_path + ".zip")
 
         # Execute a search.
-        logger.info(
-            "Searching for news articles with the phrase \'" +
-            search_phrase +
-            "\' from the last" +
-            str(search_range) +
-            " month(s)")
+        logger.info("Searching for news articles with the phrase \'" + search_phrase
+                    + "\' from the last" + str(search_range) + " month(s)")
         # Click on the search button.
         self.browser.click_button_when_visible(
             "xpath://*[@data-element='search-button']")
@@ -277,12 +268,6 @@ class NewsScraper:
         """
         # Directory does not exist, create it
         file_path = os.path.join("output", self.file_name + ".xlsx")
-        # if not os.path.exists("output"):
-        #     try:
-        #         os.mkdir("output")
-        #     except Exception as e:
-        #         logger.exception(f"Error creating directory: {e}")
-
 
         # Create a new workbook.
         wb = Workbook()
